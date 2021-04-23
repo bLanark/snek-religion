@@ -8,6 +8,14 @@ alfr =
 	#Diplomacy
 	allow = { religion = snek }
 	sprite = 7
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_diplomat
+		}
+	}	
 }
 
 cuthberht =
@@ -17,6 +25,18 @@ cuthberht =
 	#Military
 	allow = { religion = snek }
 	sprite = 8
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_militarist
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_diplomat
+		}
+	}
 }
 
 urfkell =
@@ -26,6 +46,23 @@ urfkell =
 	#Economy
 	allow = { religion = snek }
 	sprite = 9
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_capitalist
+		}	
+		modifier = {
+			factor = 2
+			personality = ai_colonialist
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_militarist
+		}		
+	}
+
 }
 
 addaway =
@@ -35,15 +72,31 @@ addaway =
 	#Urest
 	allow = { religion = snek }
 	sprite = 12
+
+	ai_will_do = {
+		factor = 1	
+	}
 }
 
-doxus =
+paradoxus =
 {
 	range = 0.1 
 	colonist_placement_chance = 0.2
 	#Exploration
 	allow = { religion = snek }
 	sprite = 10
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			factor = 2
+			personality = ai_colonialist
+		}	
+		modifier = {
+			factor = 0.5
+			personality = ai_militarist
+		}		
+	}	
 }
 
 cyrus =
@@ -53,6 +106,10 @@ cyrus =
 	#Religious
 	allow = { religion = snek }
 	sprite = 11
+	
+	ai_will_do = {
+		factor = 1	
+	}
 }
 
 wikkel =
@@ -62,4 +119,8 @@ wikkel =
 	#Religious
 	allow = { religion = snek }
 	sprite = 11
+
+	ai_will_do = {
+		factor = 1	
+	}
 }

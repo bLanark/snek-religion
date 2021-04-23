@@ -1,0 +1,39 @@
+########################################
+# Flavor Events for Church of Snek
+########################################
+
+namespace = snek_religion
+
+
+
+#Rediscovering our roots? - Teotihuacan
+country_event = {
+	id = snekreligion.1
+	title = "snekreligion.EVTNAME1"
+	desc = "snekreligion.EVTDESC1"
+	picture = EXPOLERERS_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "snekreligion.EVTOPTA1" #Reject their faith
+        add_country_modifier = {
+			name = snk_reject_nahuatl
+			duration = 7300
+	}
+	option = {
+        name = "snekreligion.EVTOPTB1" #Tolerate Nahuatl
+        add_country_modifier = {
+			name = snk_tolerate_nahuatl
+			duration = 7300
+	}
+}
+

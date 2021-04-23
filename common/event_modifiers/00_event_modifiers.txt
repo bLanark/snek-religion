@@ -11272,3 +11272,11 @@ medici_pope_modifier = {
 	diplomatic_reputation = 1
 	papal_influence = 2
 }
+
+snk_tolerate_nahuatl = {
+	tolerance_heathen = 1
+}
+
+snk_reject_nahuatl = { 
+
+}

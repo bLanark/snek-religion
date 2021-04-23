@@ -33,7 +33,7 @@ christian = {
 		
 		personal_deity = yes
 		can_have_secondary_religion = yes
-		heretic = { Snekist }	
+		heretic = { PURE_SNEK }	
 	}
 
 	catholic = {

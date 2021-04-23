@@ -9,14 +9,26 @@ namespace = snek_religion
 #Rediscovering our roots? - Teotihuacan
 country_event = {
 	id = snekreligion.1
-	title = "snekreligion.EVTNAME1"
-	desc = "snekreligion.EVTDESC1"
+	title = "snekreligion.1_name"
+	desc = "snekreligion.1_desc"
 	picture = EXPOLERERS_eventPicture
 	
 	fire_only_once = yes
 	
 	trigger = {
+		religion = snek
 
+		any_country = {
+			or = {
+				is_subject_of = ROOT
+				tag = ROOT
+			}
+
+			any_owned_province = {
+				region = mexico_region
+				religion = nahuatl
+			}
+		}
 	}
 	
 	mean_time_to_happen = {
@@ -24,16 +36,26 @@ country_event = {
 	}
 	
 	option = {
-		name = "snekreligion.EVTOPTA1" #Reject their faith
-        add_country_modifier = {
-			name = snk_reject_nahuatl
-			duration = 7300
+		name = "snekreligion.1_1" #Reject their faith
+
+		mexico_region = {
+			limit = {
+				religion = nahuatl
+			}
+
+			add_province_modifier = {
+				name = snk_reject_nahuatl
+				duration = 7300
+			}
+		}
 	}
+
 	option = {
-        name = "snekreligion.EVTOPTB1" #Tolerate Nahuatl
+        name = "snekreligion.1_2" #Tolerate Nahuatl
         add_country_modifier = {
 			name = snk_tolerate_nahuatl
 			duration = 7300
+		}
 	}
 }
 

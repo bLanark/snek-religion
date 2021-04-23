@@ -1,0 +1,12 @@
+﻿l_english: 
+  #Rediscovering our roots? - Teotihuacan
+  snekreligion.1_name:0 "Rediscovering our roots?"
+  snekreligion.1_desc:0 "After our brave conquistadors entered Teotihuacan, they discovered something disturbing. After the giant heathen temples were ransacked by our soldiers, they found images of a “heathen god” which bore a striking resemblance to our Lord, Snek. Some soldiers have proclaimed this to be blasphemy, but our priests are intrigued by where these people gained this knowledge."
+  snekreligion.1_1:0 "Heathens, all of them!"
+  snekreligion.1_2:0 "We should learn what they know"
+
+  snk_tolerate_nahuatl:0 "Tolerate Nahuatl"
+  desc_snk_tolerate_nahuatl:0 "The Nahuatl give praise to the Victorious Snek. We shall tolerate their different ways of worshiping the same god."
+
+  snk_reject_nahuatl:0 "Reject Nahuatl"
+  desc_snk_reject_nahuatl:0 "The Nahuatl worship a strange and foreign god in the image of the Victorious Snek. We must rapidly convert them to our ways."

@@ -1,0 +1,9 @@
+# Modifiers used in the mod
+
+snk_tolerate_nahuatl = {
+	tolerance_heathen = 1
+}
+
+snk_reject_nahuatl = { 
+	local_missionary_strength = 0.02
+}

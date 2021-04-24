@@ -160,9 +160,14 @@ country_event = {
 	option = {
 		name = "snekreligion.5_2"
 		define_advisor = {
+			name = "William Shakespeare" #The greatest writer of all   
 			type = artist
 			skill = 3
 			cost_multiplier = 0.5
+			culture = english
+			location = 236 #London
+
+			discount = yes
 		}
 	}
 }

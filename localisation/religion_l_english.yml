@@ -12,7 +12,7 @@
  shakti_desc:0 "Shakti is the goddess of power and dynamic energy."
  vishnu_desc:0 "Vishnu is the all-pervading god who sustains the world."
  RV_NO_DEITY_TITLE:0 "No Current Saint."
- RV_NO_DEITY_DESC:0 "Your religion allows you to select which god to follow as your main Saint. Each Saint will come with its own effects and last until your monarch changes."
+ RV_NO_DEITY_DESC:0 "Your religion allows you to select which saint to follow as your main saint. Each saint will come with its own effects and last until your monarch changes."
  RV_PICK_DEITY_THIS:0 "Follow $NAME|Y$"
  RV_PICK_DEITY:0 "Select Saint"
  norse_pagan_reformed:0 "Norse"

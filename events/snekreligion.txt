@@ -11,7 +11,7 @@ country_event = {
 	id = snekreligion.1
 	title = "snekreligion.1_name"
 	desc = "snekreligion.1_desc"
-	picture = EXPOLERERS_eventPicture
+	picture = EXPLORERS_eventPicture
 	
 	fire_only_once = yes
 	
@@ -177,7 +177,7 @@ country_event = {
 	id = snekreligion.6
 	title = "snekreligion.6_name"
 	desc = "snekreligion.6_desc"
-	picture = WESTERNISATION_eventPicutre
+	picture = WESTERNISATION_eventPicture
 	
 	is_trigerred_only = yes
 	fire_only_once = yes

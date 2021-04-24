@@ -4,6 +4,6 @@ tags={
 	"Alternative History"
 }
 name="Snek Religion"
-picture="QueenSnek.png"
+picture="thumbnail.png"
 supported_version="1.30.6"
 remote_file_id="2465094959"

@@ -287,6 +287,7 @@ country_event = {
 		name = "snekreligion.7_1"
 		define_advisor = {
 			type = artist
+			name = "Charles Fjelsted"
 			culture = english
 			religion = snek
 			skill = 3 

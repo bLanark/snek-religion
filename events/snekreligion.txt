@@ -130,6 +130,46 @@ country_event = {
 		add_prestige = 20
 	}
 }
+country_event = {
+	id = snekreligion.4
+	title = "snekreligion.4_name"
+	desc = "snekreligion.4_desc"
+	picture = POPE_PREACHING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		religion = snek		
+		munster_area = {
+			type = all
+			owned_by = ROOT
+			religion = snek
+		}
+		connacht_area = {
+			type = all
+			owned_by = ROOT
+			religion = snek			
+		}
+		ulster_area = {
+			type = all
+			owned_by = ROOT
+			religion = snek			
+		}
+		leinster_area = {
+			type = all
+			owned_by = ROOT
+			religion = snek			
+		}
+	option = {
+		name = "snekreligion.4_1"
+			add_province_modifier = {
+				name = snk_ireland_conversion
+				duration = -1
+			}		
+	}
+}
+
 
 #William Shakespeare and the Three Victorians
 country_event = {

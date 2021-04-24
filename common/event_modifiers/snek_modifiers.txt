@@ -3,11 +3,9 @@
 snk_tolerate_nahuatl = {
 	tolerance_heathen = 1
 }
-
 snk_reject_nahuatl = { 
 	local_missionary_strength = 0.02
 }
-
 united_in_cloth = {
 	global_unrest = -1
 }
@@ -16,4 +14,7 @@ calculating_captain = {
 }
 counting_count = {
 	diplomatic_reputation = 2
+}
+snk_ireland_conversion = {
+	tolerance_own = 1
 }

@@ -45,7 +45,7 @@ country_event = {
 
 			add_province_modifier = {
 				name = snk_reject_nahuatl
-				duration = 7300
+				duration = -1
 			}
 		}
 	}
@@ -54,7 +54,7 @@ country_event = {
         name = "snekreligion.1_2" #Tolerate Nahuatl
         add_country_modifier = {
 			name = snk_tolerate_nahuatl
-			duration = 7300
+			duration = -1
 		}
 	}
 }

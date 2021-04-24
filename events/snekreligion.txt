@@ -131,3 +131,38 @@ country_event = {
 	}
 }
 
+#William Shakespeare and the Three Victorians
+country_event = {
+	id = snekreligion.5
+	title = "snekreligion.5_name"
+	desc = "snekreligion.5_desc"
+	picture = THEATRE_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		religion = snek
+		is_year = 1585
+		236 = {
+			owned_by = ROOT
+		}	
+	}
+
+	mean_time_to_happen = {
+		months = 84
+	}
+
+	option = {
+		name = "snekreligion.5_1"
+		add_prestige = 10
+	}
+	option = {
+		name = "snekreligion.5_2"
+		define_advisor = {
+			type = artist
+			skill = 3
+			cost_multiplier = 0.5
+		}
+	}
+}

@@ -22,9 +22,33 @@
   snekreligion.3_1:0 "Britons never, never, never shall be slaves!"
 
 
-
  #William Shakespeare and the Three Victorians
   snekreligion.5_name:0 "William Shakespeare and the Three Victorians"
   snekreligion.5_desc:0 "A young man named William Shakespeare has written a play chronicling the saga of the legendary “Three Victorians'' of Cuthberht, Álfr, and Úrfkell. His plays are garnering significant attention from peasants and nobles alike. "
   snekreligion.5_1:0 "That Shakespeare is a passing fad. He’ll never make it anywhere!"
   snekreligion.5_2:0 "We must recruit this man into our court!"
+
+ #Do Counts count?
+  snekreligion.6_name:0 "Do Counts count?"
+  snekreligion.6_desc:0 "A great English nobleman is gaining popularity and support not only from his peers but also from the peasants of Britain who see him as a countryman and a symbol of English power. He is not, however, without enemies. A great many Dutch nobles contest his claim to the County of Norfolk on the basis that he is English, not Dutch, and therefore not eligible for the title due to his lower social class."
+  snekreligion.6_1:0 "We shall recruit him"
+  snekreligion.6_2:0 "We will support him and his quest for equality"
+  snekreligion.6_3:0 "We must oppose him"
+  snekreligion.6_4:0 "I suppose we could let it play out"
+ 
+ #A Rose Amongst a Thousand Thorns
+  snekreligion.7_name:0 "A Rose Amongst a Thousand Thorns"
+  snekreligion.7_desc:0 "Recently our national flag has sprung up everywhere as more and more people start to identify with our nation. The origin of this craze seems to stem from an accomplished flagmaker in London who has helped increase a common identity within our people towards our flag."
+  snekreligion.7_1:0 "We must recruit him into our court!"
+  snekreligion.7_2:0 "He is to valuable to be recruited into politics"
+  snekreligion.7_3:0 "Promote this craze to unify our people"
+
+ #Calculating Captain
+  snekreligion.8_name:0 "Captain’s Calculations"
+  snekreligion.8_desc:0 "A great English captain is gaining popularity and support not only from his peers but also from the common sailors and ensigns in Britain who see him as a countryman and a symbol of English power. He is not, however, without enemies. A great many Dutch captains contest his rise to the rank of captain on the basis that he is English, not Dutch, and therefore not eligible for the rank due to his lower social class. "
+  snekreligion.8_1:0 "We must utilize his talents"
+  snekreligion.8_2:0 "We will support him in his quest for equality"
+  snekreligion.8_3:0 "We must oppose him"
+  snekreligion.6_4:0 "I suppose we could let it play out"
+
+

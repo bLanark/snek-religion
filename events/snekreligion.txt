@@ -2,7 +2,7 @@
 # Flavor Events for Church of Snek
 ########################################
 
-namespace = snek_religion
+namespace = snekreligion
 
 
 
@@ -56,6 +56,78 @@ country_event = {
 			name = snk_tolerate_nahuatl
 			duration = 7300
 		}
+	}
+}
+
+#A Most Serpentine & Serene Quincentenary
+country_event = {
+	id = snekreligion.2
+	title = "snekreligion.2_name"
+	desc = "snekreligion.2_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		is_year = 1457
+		religion = snek
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "snekreligion.2_1"
+
+		british_isles_region = {
+			limit = {
+				NOT = {
+					or = {
+						area = connacht_area
+						area = leinster_area
+						area = ulster_area
+						area = munster_area
+					}
+				}
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+}
+
+#The Reconquest of Albion
+country_event = {
+	id = snekreligion.3
+	title = "snekreligion.3_name"
+	desc = "snekreligion.3_desc"
+	#picture = #TODO: ADD PICTURE
+
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		religion = snek
+		236 = {
+			owned_by = ROOT
+		}
+		248 = {
+			owned_by = ROOT
+		}
+		238 = {
+			owned_by = ROOT
+		}		
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "snekreligion.3_1"
+
+		add_stability = 1
+		add_prestige = 20
 	}
 }
 

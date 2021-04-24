@@ -10,3 +10,13 @@
 
   snk_reject_nahuatl:0 "Reject Nahuatl"
   desc_snk_reject_nahuatl:0 "The Nahuatl worship a strange and foreign god in the image of the Victorious Snek. We must rapidly convert them to our ways."
+
+  #A Most Serpentine & Serene Quincentenary
+  snekreligion.2_name:0 "A Most Serpentine & Serene Quincentenary"
+  snekreligion.2_desc:0 "It has been 500 years since the founding of our church. Long have we waited for the return of our scaled queen. Times have been dark, subjugation at the hands of Alba, cruel. But, as we near the anniversary, the peasants have been whispering of a new golden era. Is it time once again to slither out of obscurity? Is it time to cease waiting, and begin heralding the return of Victoria? Indeed it is! We shall weather all incoming storms and retake our island, whatever the cost may be!"
+  snekreligion.2_1:0 "And weather it we shall!"
+
+  #The Reconquest of Albion
+  snekreligion.3_name:0 "The Reconquest of Albion"
+  snekreligion.3_desc:0 "We have done it. We have reclaimed our homeland and freed it from tyrannical heathen rulers. This is but the first step to realizing our dream of the Third coming of Victoria!"
+  snekreligion.3_1:0 "Britons never, never, never shall be slaves!"

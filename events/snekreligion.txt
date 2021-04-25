@@ -93,7 +93,7 @@ country_event = {
 	id = snekreligion.3
 	title = "snekreligion.3_name"
 	desc = "snekreligion.3_desc"
-	#picture = #TODO: ADD PICTURE
+	picture = GOOD_WITH_MONARCH_eventPicture
 
 	fire_only_once = yes
 
@@ -300,7 +300,6 @@ country_event = {
 	desc = "snekreligion.7_desc"
 	picture = WAR_OF_THE_ROSES_eventPicture
 
-	is_trigerred_only = yes
 	fire_only_once = yes
 	trigger = {
 		flag = is_player
@@ -459,6 +458,7 @@ country_event = { ###Holy site reclaimed: Berwickshire###
 	desc = "snekreligion.9_desc"
 	picture =  ORTHODOX_eventPicture
 
+	fire_only_once = yes
 	
 	trigger = {
 		owns = 248
@@ -466,7 +466,7 @@ country_event = { ###Holy site reclaimed: Berwickshire###
 		ai = no
 	}
 	mean_time_to_happen = {
-		months = 1
+		months = 48
 	}
 
 	option = {
@@ -488,14 +488,14 @@ country_event = { ###Holy site reclaimed: Berwickshire###
 			chance = 25
 			country_event = {
 				id = snekreligion.10
-				days = 1
+				days = 10
 			}
 		}
 		owner = {
 			chance = 75
 			country_event = {
 				id = snekreligion.11
-				days = 1
+				days = 10
 			}
 		}
 	}
@@ -508,7 +508,15 @@ country_event = {  ###A Cunning Plan###
 	picture = PAINTER_ARTIST_eventPicture
 
 	is_trigerred_only = yes
-	
+	fire_only_once = yes
+
+	trigger = {
+		owns = 248
+		religion = snek
+		ai = no
+	}	
+
+
 	option = {
 		name = "snekreligion.10_1"
 		add_country_modifier = {
@@ -525,6 +533,7 @@ country_event = {  ###A Cunning Plan?###
 	picture = OVEREXTENSION_eventPicture
 
 	is_trigerred_only = yes
+	fire_only_once = yes
 
 	option = {
 		name = "snekreligion.11_1"
@@ -532,5 +541,86 @@ country_event = {  ###A Cunning Plan?###
 			name = cunning_plan_2
 			duration = 182
 		}
+	}
+}
+
+#Rebalancing the Scales of Justice
+country_event = {
+	id = snekreligion.12
+	title = "snekreligion.12_name"
+	desc = "snekreligion.12_desc"
+	picture = PLAGUE_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		religion = snek
+		NOT = { is_year = 1457 }
+		}	
+
+	mean_time_to_happen = {
+		months = 6
+	}
+	immediate = {
+		hidden_effect = {	
+			munster_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			connacht_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			ulster_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+			leinster_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	option = {
+		name = "snekreligion.12_1"
+		effect = {
+			munster_area = {
+				add_province_modifier = {
+					name = scales_of_justice
+					duration = 7300
+				}	
+			}
+			connacht_area = {
+				add_province_modifier = {
+					name = scales_of_justice
+					duration = 7300
+				}	
+			}
+			ulster_area = {
+				add_province_modifier = {
+					name = scales_of_justice
+					duration = 7300
+				}	
+			}
+			leinster_area = {
+				add_province_modifier = {
+					name = scales_of_justice
+					duration = 7300
+				}
+			}
+		}	
 	}
 }

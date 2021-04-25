@@ -18,7 +18,7 @@
 
  #The Reconquest of Albion
   snekreligion.3_name:0 "The Reconquest of Albion"
-  snekreligion.3_desc:0 "We have done it. We have reclaimed our homeland and freed it from tyrannical heathen rulers. This is but the first step to realizing our dream of the Third coming of Victoria!"
+  snekreligion.3_desc:0 "We have done it. We have reclaimed our homeland and freed it from tyrannical heathen rulers. This is but the first step to realizing our dream of the Final Return of Victoria!"
   snekreligion.3_1:0 "Britons never, never, never shall be slaves!"
 
  #The Conversion of Ireland
@@ -34,7 +34,7 @@
 
  #Do Counts count?
   snekreligion.6_name:0 "Do Counts count?"
-  snekreligion.6_desc:0 "A great English nobleman is gaining popularity and support not only from his peers but also from the peasants of Britain who see him as a countryman and a symbol of English power. He is not, however, without enemies. A great many Dutch nobles contest his claim to the County of Norfolk on the basis that he is English, not Dutch, and therefore not eligible for the title due to his lower social class."
+  snekreligion.6_desc:0 "An English nobleman has been gaining unprecedented popularity and support as of late, not only from his peers, but also from amongst the peasantry of Britain. They see him as, among other things, a countryman and a symbol of English power. He is not, however, without enemies. A great many Dutch nobles contest his claim to the County of Norfolk on the basis that he is English, not Dutch, and therefore not eligible for the title due to his lower social class within the realm."
   snekreligion.6_1:0 "We shall recruit him"
   snekreligion.6_2:0 "We will support him and his quest for equality"
   snekreligion.6_3:0 "We must oppose him"
@@ -42,14 +42,14 @@
  
  #A Rose Amongst a Thousand Thorns
   snekreligion.7_name:0 "A Rose Amongst a Thousand Thorns"
-  snekreligion.7_desc:0 "Recently our national flag has sprung up everywhere as more and more people start to identify with our nation. The origin of this craze seems to stem from an accomplished flagmaker in London who has helped increase a common identity within our people towards our flag."
+  snekreligion.7_desc:0 "Recently our national flag has sprung up everywhere as more and more people start to identify with our nation. After some investigation, it seems this craze stems from an accomplished flagmaker in London, who has helped to foster a common identity within our people with his banners."
   snekreligion.7_1:0 "We must recruit him into our court!"
   snekreligion.7_2:0 "He is to valuable to be recruited into politics"
   snekreligion.7_3:0 "Promote this craze to unify our people"
 
  #Calculating Captain
   snekreligion.8_name:0 "Captain’s Calculations"
-  snekreligion.8_desc:0 "A great English captain is gaining popularity and support not only from his peers but also from the common sailors and ensigns in Britain who see him as a countryman and a symbol of English power. He is not, however, without enemies. A great many Dutch captains contest his rise to the rank of captain on the basis that he is English, not Dutch, and therefore not eligible for the rank due to his lower social class. "
+  snekreligion.8_desc:0 "A great English captain is gaining popularity and support, not only from his peers, but also from the common sailors and ensigns in Britain, who see him as a countryman and a symbol of English power. He is not, however, without enemies. A great many Dutch captains contest his rise to the rank of captain on the basis that he is English, not Dutch, and therefore not eligible for the rank due to his lower social class."
   snekreligion.8_1:0 "We must utilize his talents"
   snekreligion.8_2:0 "We will support him in his quest for equality"
   snekreligion.8_3:0 "We must oppose him"
@@ -73,10 +73,41 @@
   
  #symposium
   englishport.1.t:0 "Symposium of Faith and Knowledge"
-  englishport.1.d:0 "Our Churches are vital platforms of intellectual and policy debate. Our Goddess, Victoria, was a Queen of wisdom and enlightenment. Our God, Snek, embodies the persuit of enlightenment through meandering and protracted debates.This year, the much anticipated subject was Root.OxOrBridgeSubject . The findings and their rigorous, protracted debates are a sure sign of our faith.  "
+  englishport.1.d:0 "Our Churches are vital platforms of intellectual and policy debate. Our Goddess, Victoria, was a Queen of wisdom and enlightenment. Our God, Snek, embodies the persuit of enlightenment through meandering and protracted debates.This year, the much anticipated subject was Root.OxOrBridgeSubject . The findings and their rigorous, protracted debates are a sure sign of our faith."
   englishport.1.a:0 "Splendid!"
 
+ #Female Sufferage"
   englishport.2.t:0 "Female Sufferage"
-  englishport.2.d:0 "Years ago, a “Voting Reform Act” was mandated by our overlord which specified that only male persons may hold the right to vote, undermining the rights held by women guaranteed by the Victorian faith. Led by the disgruntled upper-class ladies, women both poor and rich took to the streets during in protest. Their triumphant marching chant “Victorian Votes for Victorian Women!” was sung in chorus throughout the streets of [Root.Capital.GetCapitalName] as declared our independence. Even the most conservative amidst the government cannot deny the wisdom of gender equality from our Queen-Goddess Victoria and the impact her spirit has had on our national identity and our fight for freedom. Though we made no explicit promise to extend suffrage to women, their instrumental role in breaking us free from the shackles of yesterday compels …"
+  englishport.2.d:0 "Years ago, a “Voting Reform Act” was mandated by our overlord which specified that only male persons may hold the right to vote, undermining the rights held by women guaranteed by the Victorian faith. Led by the disgruntled upper-class ladies, women both poor and rich took to the streets during in protest. Their triumphant marching chant “Victorian Votes for Victorian Women!” was sung in chorus throughout the streets of [Root.Capital.GetCapitalName] as declared our independence. Even the most conservative amidst the government cannot deny the wisdom of gender equality from our Queen-Goddess Victoria and the impact her spirit has had on our national identity and our fight for freedom. Though we made no explicit promise to extend suffrage to women, their instrumental role in breaking us free from the shackles of yesterday compels…"
   englishport.2.a:0 "Enact the reforms! The daughters of Victoria will thank us yet."
   englishport.2.b:0 "Catastrophe! No deity intended for this ghastly mess!"
+
+ #Open Government 
+  englishport.3.t:0 "Open Government"
+  englishport.3.d:0 "There can no longer be any doubt that the [ROOT.GovernmentName] of [ROOT.GetName] has somehow managed to become both byzantine and efficient at once - no matter how baffling or oxymoronic such a statement may be. Its famed corps of civil servants at the White Rose Hall stand ready to serve the nation in all bureaucratic and diplomatic matters. Recently however, a pamphlet in circulation has revealed that the Revenue Agency has more employees than our navy, and decries the former as a waste of money. This has been an acute matter of embarrassment, and has created a dilemma for our [ROOT.Monarch.GetTitle], who has long promoted the vital role of our grand fleet in the defense of our island home. Ships, however, cannot run a nation alone. The sailors will need to be assuaged without compromising the administration. How should we respond to this pamphlet?"
+  englishport.3.a:0 "Perhaps the government thinks that a bureaucracy is the best form of defense."
+  englishport.3.b:0 "The public doesn’t know anything about wasting government money, we're the experts."
+  
+ #Creation of the York Stock Exchange 
+  englishport.4.t:0 "Creation of the York Stock Exchange"
+  englishport.4.d:0 "A guild of traders called the Victorian Yorkist Chamber has proposed the creation of the York Stock Exchange. Although currently holding minimal export value or financial importance, it has prime access to the coal mines of Northern England and the Humber Estuary. With enough investment it could yet grow further and act more competitively, serving as a financial hub for our burgeoning merchant class, boosting the [Root.GetAdjective] trade, manufacturing and economy as a whole. [Root.GetName] would then benefit from an easy and reliable access to credit."
+  englishport.4.a:0 "Expand the Loan Market"
+  englishport.4.b:0 "Exercise Caution and Strict Oversight"
+  
+ #Canceling of Glass Monopolies 
+  englishport.5.t:0 "Canceling of Glass Monopolies"
+  englishport.5.d:0 "The granting of monopolies has long been a tool to reward those who are most loyal, and the glass monopoly is no exception. Though our [ROOT.Monarch.GetTitle] was always an ardent fan of façon de venise glass, its grant of monopoly is deeply resented by the artisans and craftsmen of both England and the Low Countries. Revoking the prerogative may yield considerable benefits to the people, albeit at a hit to the budget."
+  englishport.5.a:0 "Cancel the Monopolies"
+  englishport.5.b:0 "Extend them by 10 more years"
+  
+ #Glassmania 
+  englishport.6.t:0 "Glassmania"
+  englishport.6.d:0 "Recently, glass has become popular among the rich merchant classes in the [ROOT.GetName] as a luxury item. Following rapid market growth fueled by an ever rising demand, speculators entered the market in the summer of 1635, perpetuating the upward trend. The following year, a futures market was created, and during the autumn and winter the prices skyrocketed when a monopoly on façon de venise glass production expired. The prices finally collapsed in February 1637. The result was the mass default on debt and the bankruptcy of many, a potential nation wide economic disaster if not managed correctly."
+  englishport.6.a:0 "Bail out the glassmakers."
+  englishport.6.b:0 "Victoria can calculate the movement of stars, but not the madness of men."
+
+ #Rebalancing the Scales of Justice 
+  snekreligion.12_name:0 "Rebalancing the Scales of Justice"
+  snekreligion.12_desc:0 "At the end of the 7th century, the Catholic Saint Patrick renounced his ties to the Victorian-Snekkist church. A horde of Snakes, concerned for his immortal soul, petitioned him to come back, begging that he accept the word of Victoria, and return to awaiting Her return. Disgusted, he cast them into the sea, exiling them from their homelands. As a final insult he then came to the Irish, and taught them of the heretic Church of Christ. Millions of Snakes perished, all for the soul of one man. For these crimes, we must take back these lands, and return them to her scaled embrace."
+  snekreligion.12_1:0 "Thisss isss a lossss that mussst be avenged"
+  

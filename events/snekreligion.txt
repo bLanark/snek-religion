@@ -17,18 +17,10 @@ country_event = {
 	
 	trigger = {
 		religion = snek
-
-		any_country = {
-			or = {
-				is_subject_of = ROOT
-				tag = ROOT
-			}
-
-			any_owned_province = {
-				region = mexico_region
-				religion = nahuatl
-			}
+		852 = {
+			owned_by = ROOT
 		}
+		ai = no
 	}
 	
 	mean_time_to_happen = {

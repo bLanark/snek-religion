@@ -491,7 +491,7 @@ country_event = { ###Holy site reclaimed: Berwickshire###
 		owner = {
 			chance = 75
 			country_event = {
-				id = sneckreligion.11
+				id = snekreligion.11
 				days = 1
 			}
 		}

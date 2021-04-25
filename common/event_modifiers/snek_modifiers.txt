@@ -18,3 +18,14 @@ counting_count = {
 snk_ireland_conversion = {
 	tolerance_own = 1
 }
+cunning_plan = {
+	ae_impact = -0.2
+	spy_offense = -0.25
+}
+cunning_plan_2 = {
+	ae_impact = 0.2
+	spy_offense = 0.25	
+}
+beckshwire_reclaimed = {
+	global_missionary_strength = 1
+}

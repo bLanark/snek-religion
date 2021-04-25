@@ -53,9 +53,22 @@
   snekreligion.8_1:0 "We must utilize his talents"
   snekreligion.8_2:0 "We will support him in his quest for equality"
   snekreligion.8_3:0 "We must oppose him"
-  snekreligion.6_4:0 "I suppose we could let it play out"
+  snekreligion.8_4:0 "I suppose we could let it play out"
   
   #Holy site reclaimed: Berwickshire
   snekreligion.9_name:0 "Holy site reclaimed, Berwichshire"
+  snekreligion.9_desc:0 "We have successfully reclaimed one of the holy sites of the Church of the Victorious Snek. We have the opportunity to rename it to its original Victorian name, but a local noble called Lord Edmund has suggested an alternative. He insists it is only the first stage in his ‘cunning plan’..."
+  snekreligion.9_1:0 "Restore its proper name, Berwickshire!"
+  snekreligion.9_2:0 "Rename it after a local river"
+  
+  #A Cunning Plan
+  snekreligion.10_name:0 "A Cunning Plan"
+  snekreligion.10_desc:0 "As cunning as a fox who’s just been appointed professor of cunning at Oxford University?"
+  snekreligion.10_1:0 "How are you feeling Darling?"
+  
+  #A Cunning Plan?
+  snekreligion.11_name:0 "A Cunning Plan?"
+  snekreligion.11_desc:0 "Well I’m afraid it’ll have to wait. Whatever it was, I’m sure it was better than my plan to get out of this by pretending to be mad."
+  snekreligion.11_1:0 "Who would have noticed another madman around here?"
 
 

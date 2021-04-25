@@ -1,0 +1,423 @@
+country_event = { 
+	id = englishport.1
+	title = englishport.1.t
+	desc = englishport.1.d
+	picture = UNIVERSITY_eventPicture
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		237 = {
+			owned_by = ROOT
+			has_building = temple
+			renaissance = 100
+		}
+		4370 = {
+			owned_by = ROOT
+			has_building = temple
+			renaissance = 100
+		}
+	}
+	
+	immediate = {
+		hidden_effect = {
+				random_list = {
+					20 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 1
+						}
+					}
+					20 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 2
+						}
+					}
+					20 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 3
+						}
+					}
+					20 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 4
+						}
+					}
+					20 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 5
+						}
+					}
+				}
+			}
+	}
+	
+	option = {
+		name = englishport.1.a
+		
+		if = {
+			limit = {
+				check_variable = {
+					which = oxbridge_subject
+					value = 1
+				}
+				NOT = {
+					check_variable = {
+						which = oxbridge_subject
+						value = 2
+					}
+				}
+			}
+			add_country_modifier = {
+				name = "rb_eng_passage_spheres"
+				duration = 1825
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = oxbridge_subject
+					value = 2
+				}
+				NOT = {
+					check_variable = {
+						which = oxbridge_subject
+						value = 3
+					}
+				}
+			}
+			add_country_modifier = {
+				name = "rb_eng_theory_warfare"
+				duration = 1825
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = oxbridge_subject
+					value = 3
+				}
+				NOT = {
+					check_variable = {
+						which = oxbridge_subject
+						value = 4
+					}
+				}
+			}
+			add_country_modifier = {
+				name = "rb_eng_philosophy_royalty"
+				duration = 1825
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = oxbridge_subject
+					value = 4
+				}
+				NOT = {
+					check_variable = {
+						which = oxbridge_subject
+						value = 5
+					}
+				}
+			}
+			add_country_modifier = {
+				name = "rb_eng_divine_common"
+				duration = 1825
+			}
+		}
+		else_if = {
+			limit = {
+				check_variable = {
+					which = oxbridge_subject
+					value = 5
+				}
+			}
+			add_country_modifier = {
+				name = "rb_eng_national_economy"
+				duration = 1825
+			}
+		}
+		custom_tooltip = "flavor_eng.9880.a.tooltip"
+		hidden_effect = {
+			country_event = {
+				id = englishport.1
+				days = 1825
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = oxbridge_subject
+						value = 1
+					}
+					NOT = {
+						check_variable = {
+							which = oxbridge_subject
+							value = 2
+						}
+					}
+				}
+				random_list = {
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 2
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 3
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 4
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 5
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = oxbridge_subject
+						value = 2
+					}
+					NOT = {
+						check_variable = {
+							which = oxbridge_subject
+							value = 3
+						}
+					}
+				}
+				random_list = {
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 1
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 3
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 4
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 5
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = oxbridge_subject
+						value = 3
+					}
+					NOT = {
+						check_variable = {
+							which = oxbridge_subject
+							value = 4
+						}
+					}
+				}
+				random_list = {
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 1
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 2
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 4
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 5
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = oxbridge_subject
+						value = 4
+					}
+					NOT = {
+						check_variable = {
+							which = oxbridge_subject
+							value = 5
+						}
+					}
+				}
+				random_list = {
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 1
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 2
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 3
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 5
+						}
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = oxbridge_subject
+						value = 5
+					}
+				}
+				random_list = {
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 1
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 2
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 3
+						}
+					}
+					25 = {
+						set_variable = {
+							which = oxbridge_subject
+							value = 4
+						}
+					}
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						which = oxbridge_symposium
+						value = 0
+					}
+					NOT = {
+						check_variable = {
+							which = oxbridge_symposium
+							value = 1
+						}
+					}
+				}	
+				set_variable = { which = oxbridge_symposium value = 2 }
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = oxbridge_symposium
+						value = 1
+					}
+					NOT = {
+						check_variable = {
+							which = oxbridge_symposium
+							value = 2
+						}
+					}
+				}	
+				set_variable = { which = oxbridge_symposium value = 2 }
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						which = oxbridge_symposium
+						value = 2
+					}
+				}	
+				set_variable = { which = oxbridge_symposium value = 1 }
+			}
+		}
+	}
+}
+
+# Emperor - Votes for Women (by James Beaumont)
+country_event = {
+	id = englishport.2
+	title = englishport.2.t
+	desc = englishport.2.d
+	picture = wihgfx_FEMALE_GENERAL_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion = snek
+		is_subject = no    #we should break free as tributary first
+	}
+
+	mean_time_to_happen = {
+		years = 2
+	}
+	
+	option = {
+		name = englishport.2.a
+		add_country_modifier = {
+			name = victorious_suffragettes
+			duration = -1
+		}
+	}
+	
+	option = {
+		name = englishport.2.b
+		add_country_modifier = {
+			name = unfaithful_government
+			duration = -1
+		}
+	}
+}
+	

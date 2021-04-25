@@ -153,6 +153,7 @@ country_event = {
 			owned_by = ROOT
 			religion = snek			
 		}
+	}
 	option = {
 		name = "snekreligion.4_1"
 			add_province_modifier = {

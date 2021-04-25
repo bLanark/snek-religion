@@ -457,10 +457,11 @@ country_event = {
 		add_country_flag = calculating_captain
 	}
 }
+###Holy site reclaimed Berwichshire
 country_event = { ###Holy site reclaimed: Berwickshire###
-	id = sneckreligion.9
-	title = "sneckreligion.9_name"
-	desc = "sneckreligion.9_desc"
+	id = snekreligion.9
+	title = "snekreligion.9_name"
+	desc = "snekreligion.9_desc"
 	picture =  ORTHODOX_eventPicture
 
 	
@@ -474,7 +475,7 @@ country_event = { ###Holy site reclaimed: Berwickshire###
 	}
 
 	option = {
-		name = "sneckreligion.9_1"
+		name = "snekreligion.9_1"
 		add_country_modifier = {
 			name = beckshwire_reclaimed
 			duration = 36500
@@ -484,7 +485,7 @@ country_event = { ###Holy site reclaimed: Berwickshire###
 		}
 	}
 	option = {
-		name = "sneckreligion.9_2"
+		name = "snekreligion.9_2"
 		248 = {
 			rename_province = Blackladder
 		}
@@ -504,32 +505,34 @@ country_event = { ###Holy site reclaimed: Berwickshire###
 		}
 	}
 }
+###A Cunning Plan
 country_event = {  ###A Cunning Plan###
-	id = sneckreligion.10
-	title = "sneckreligion.10_name"
-	desc = "sneckreligion.10_desc"
+	id = snekreligion.10
+	title = "snekreligion.10_name"
+	desc = "snekreligion.10_desc"
 	picture = PAINTER_ARTIST_eventPicture
 
 	is_trigerred_only = yes
 	
 	option = {
-		name = "sneckreligion.10_1"
+		name = "snekreligion.10_1"
 		add_country_modifier = {
 			name = cunning_plan
 			duration = 365
 		}
 	}
 }
+###A Cunning Plan?
 country_event = {  ###A Cunning Plan?###
-	id = sneckreligion.11
-	title = "sneckreligion.11_name"
-	desc = "sneckreligion.11_desc"
+	id = snekreligion.11
+	title = "snekreligion.11_name"
+	desc = "snekreligion.11_desc"
 	picture = OVEREXTENSION_eventPicture
 
 	is_trigerred_only = yes
 
 	option = {
-		name = "sneckreligion.11_1"
+		name = "snekreligion.11_1"
 		add_country_modifier = {
 			name = cunning_plan_2
 			duration = 182

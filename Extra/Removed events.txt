@@ -1,0 +1,67 @@
+#Bananas for Bananas
+country_event = {  ###Bananas for Bannanas
+	id = snekreligion.17
+	name = "snekreligion.17_name"
+	desc = "snekreligion.17_desc"
+	picture = OVEREXTENSION_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+		religion = snek
+	}
+	mean_time_to_happen = {
+		months = 600
+	}
+
+	option = {  #Let him have the bananas!
+		name = "snekreligion.17_1"
+		add_adm_power = 50
+		add_treasury = -30
+	}
+	option = {  #We cannot afford this
+		name = "snekreligion.17_2"
+		any_onwed_province = {
+			add_prestige = 10
+			limit = {
+				is_capital = yes
+			}
+			add_devastation = 20
+		}
+	}
+}
+
+###Holy site reclaimed: Ulster
+country_event = {  ###Holy site reclaimed : Ulster###
+	id = snekreligion.15
+	title = "snekreligion.15_name"
+	desc = "snekreligion.15_desc"
+	picture ORTHODOX_eventPicture
+
+	trigger = {
+		owns = 234
+		religion = snek
+		ai = no
+	}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "snekreligion.15_1" ###We shall burn his resting place to the ground###
+		any_owned_province = {
+			culture = irish
+			unrest = 5
+		}
+		add_country_modifier = {
+			name = ulster_burnt
+			duration = -1
+		}
+	}
+	option = {
+		name = "snekreligion.15_2" ###We cannot risk angering the people###
+		prestige = -15
+	}
+
+
+}

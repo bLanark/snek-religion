@@ -1,0 +1,3 @@
+ulster_burnt = {
+	tolerance_own = 1
+}

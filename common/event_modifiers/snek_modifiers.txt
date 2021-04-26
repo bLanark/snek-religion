@@ -52,9 +52,6 @@ scales_of_justice = {
 ireland_converted = {
 	tolerance_own = 1
 }
-ulster_burnt = {
-	tolerance_own = 1
-}
 wight_reclaimed = {
 	diplomatic_reputation = 1
 }

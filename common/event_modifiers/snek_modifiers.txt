@@ -16,7 +16,7 @@ counting_count = {
 	diplomatic_reputation = 2
 }
 snk_ireland_conversion = {
-	tolerance_own = 1
+	local_missionary_strength = 0.01
 }
 cunning_plan = {
 	ae_impact = -0.2

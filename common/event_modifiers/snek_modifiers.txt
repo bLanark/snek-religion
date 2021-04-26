@@ -55,3 +55,6 @@ wight_reclaimed = {
 great_success = {
 	global_colonial_growth = 10
 }
+pro_heretics = { 
+	tolerance_heretic = 1  
+}

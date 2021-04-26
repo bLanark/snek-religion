@@ -132,13 +132,20 @@
   snekreligion.17_name:0 "The Halfdan Pretender"
   snekreligion.17_desc:0 "Ever since the revolution of 1444, pretenders to the throne have waited abroad to overthrow our fledgling republic. Citing the prophecy of Halfdan, they claim to be backed by Snek and call our government a puppet of the pope. Bruce Halfdan has crossed the border in aims to seize the capital and crown himself Jarl."
   snekreligion.17_1:0 "We will surrender to no tyranny!"
-
-#end_of_halfdan
+ #end_of_halfdan
   snekreligion.18_name:0 "End of Halfdan"
   snekreligion.18_desc:0 "The last Halfdan pretender has died in exile without an heir, marking the end of the dynasty. Their supporters have gone into hiding and with their claim to the throne extinct, the royalist movement has taken a major blow. A major threat to our republic has been left to the history books."
   snekreligion.18_1:0 "Good Riddance!"
-
-#dawn_of_a_people
+ #dawn_of_a_people
   snekreligion.19_name:0 "Dawn of A People"
   snekreligion.19_desc:0 "For centuries, the Dutch have migrated in large numbers to Britain and settled with the locals. Over time cultural lines have been blurred and now many Dutch migrants have now integrated into their local communities. Despite the governments best efforts to enforce Dutch culture on the locals, decades of commerce and intermarriage have led to a unique melting pot of culture which is neither Anglo-Saxon or Dutch. These communities were initially disjointed and lacked a central identity, however with the invention of the printing press the first ‘Nedersakisch’ dictionaries have been produced. Despite being banned by the state, these dictionaries have spread across the island, leading to a birth of Nedersakisch art, culture and writing. Many are now demanding representation in Government and an end to discriminatory practices."
   snekreligion.19_1:0 "Uneducated Rabbles"
+ #March of the Eagles
+  snekreligion.20_name:0 "March of the Eagles"
+  snekreligion.20_desc:0 "Volunteers from around the realm are signing up to protect the faith! These so-called “Eagles” have boosted our enlistment sheets significantly."
+  snekreligion.20_1:0 "The Eagles march again."
+ #Heretics lurk among us
+  snekreligion.21_name:0 "Heretics lurk among us"
+  snekreligion.21_desc:0 "Maintaining a unified vision of a religion is hard, it is to be expected that some heretics will arise and question the word of our clergy. However recently a group of heretics has gotten unusually large, they believe that Victoria and Snek are already living among us and are currently infiltrating our clergy."
+  snekreligion.21_1:0 "Let us purge these impostors" 
+  snekreligion.21_2:0 "Who are we to decide on what they believe?" 

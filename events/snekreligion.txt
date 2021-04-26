@@ -689,6 +689,9 @@ country_event = {  ###Holy site reclaimed : Ilse of Wight###
 			name = wight_reclaimed
 			duration = 3650
 		}
+		234 = {
+			change_province_name = "Isle of Wight"
+		}
 	}
 	option = {
 		name = "snekreligion.14_2" ###It will surely propser under our rule###

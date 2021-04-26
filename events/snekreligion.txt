@@ -739,3 +739,31 @@ country_event = {  ###Holy site reclaimed : Ulster###
 
 
 }
+
+#American Dream
+country_event = {  ###American Dream###
+	id = snekreligion.16
+	title = "snekreligion.16_name"
+	desc = "snekreligion.16_desc"
+	picture = COLONIZATION_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+		ai = no
+		religion = snek
+		colonial_eastern_america {
+			any_province = {
+				owner = ROOT
+			}
+		}
+	}
+
+	option = { ###I got to America###
+		name = "snekreligion.16_1"
+		add_country_modifier = {
+			name = great_success
+			duration = 1080
+		}
+	}
+
+}

@@ -564,60 +564,32 @@ country_event = {
 	mean_time_to_happen = {
 		months = 6
 	}
-	immediate = {
-		hidden_effect = {	
-			munster_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			connacht_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			ulster_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-			leinster_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
-		}
-	}
 	option = {
 		name = "snekreligion.12_1"
 		effect = {
 			munster_area = {
+				add_permanent_claim = ROOT
 				add_province_modifier = {
 					name = scales_of_justice
 					duration = 7300
 				}	
 			}
 			connacht_area = {
+				add_permanent_claim = ROOT
 				add_province_modifier = {
 					name = scales_of_justice
 					duration = 7300
 				}	
 			}
 			ulster_area = {
+				add_permanent_claim = ROOT				
 				add_province_modifier = {
 					name = scales_of_justice
 					duration = 7300
 				}	
 			}
 			leinster_area = {
+				add_permanent_claim = ROOT
 				add_province_modifier = {
 					name = scales_of_justice
 					duration = 7300
@@ -757,6 +729,9 @@ country_event = {  ###American Dream###
 			}
 		}
 	}
+	mean_time_to_happen = {
+		months = 12
+	}
 
 	option = { ###I got to America###
 		name = "snekreligion.16_1"
@@ -779,6 +754,9 @@ country_event = {  ###Bananas for Bannanas
 	trigger = {
 		religion = snek
 	}
+	mean_time_to_happen = {
+		months = 600
+	}
 
 	option = {  #Let him have the bananas!
 		name = "snekreligion.17_1"
@@ -787,12 +765,11 @@ country_event = {  ###Bananas for Bannanas
 	}
 	option = {  #We cannot afford this
 		name = "snekreligion.17_2"
-		add_treasury = 30
 		any_onwed_province = {
+			add_prestige = 10
 			limit = {
 				is_capital = yes
 			}
-
 			add_devastation = 20
 		}
 	}

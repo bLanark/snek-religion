@@ -108,7 +108,7 @@
 
  #Rebalancing the Scales of Justice 
   snekreligion.12_name:0 "Rebalancing the Scales of Justice"
-  snekreligion.12_desc:0 "At the end of the 7th century, the Catholic Saint Patrick renounced his ties to the Victorian-Snekkist church. A horde of Snakes, concerned for his immortal soul, petitioned him to come back, begging that he accept the word of Victoria, and await her return. Disgusted, he cast them into the sea, exiling them from their homelands. As a final insult he then came to the Irish, and taught them of the heretic Church of Christ. Millions of Snakes perished, all for the soul of one man. For these crimes, we must take back these lands, and return them to her scaled embrace."
+  snekreligion.12_desc:0 "At the end of the 7th century, the Catholic Saint Patrick renounced his ties to the Victorian-Snekkist church. A horde of Snakes, concerned for his immortal soul, petitioned him to come back, begging that he accept the word of Victoria, and await her return. Disgusted, he cast them into the sea, exiling them from their homelands. As a final insult he then came to the Irish, and taught them of the Church of Christ. Millions of Snakes perished, all for the soul of one man. For these crimes, we must take back these lands, and return them to her scaled embrace."
   snekreligion.12_1:0 "Thisss isss a lossss that mussst be avenged"
   
  #Holy site reclamed: London
@@ -122,35 +122,23 @@
   snekreligion.14_desc:0 "We have successfully reclaimed one of the holy sites of the Church of the Victorious Snek. The site in question is the place of death of our great prophet, Victoria, and as such, some are beginning to question whether or not we should permit it to remain dominated by the county of Hampshire."
   snekreligion.14_1:0 "How dare they overshadow a holy site in such a way!"
   snekreligion.14_2:0 " It will surely prosper under our rule"
-  
- #Holy site reclaimed: Ulster
-  snekreligion.15_name:0 "Holy site reclaimed: Ulster"
-  snekreligion.15_desc:0 "We have successfully reclaimed one of the holy sites of the Church of the Victorious Snek. This is no ordinary place however, as Ulster is the place of death of one greatest evils our kind has ever known: St. Patrick; the bane of a once-prosperous realm of our lost brothers in Ireland."
-  snekreligion.15_1:0 "We shall burn his resting place to the ground"
-  snekreligion.15_2:0 "We cannot risk angering the people"
-  
+
  #American Dream
   snekreligion.16_name:0 "American Dream"
   snekreligion.16_desc:0 "The discovery of the New World has sent waves of hope throughout the nation. Many seek opportunity and flock to settle these new lands. Victorian-Snekist priests are already boarding ships to make the perilous journey and proselytize the natives."
   snekreligion.16_1:0 "I go to America!"
 
- #Bananas for Bananas
-  snekreligion.17_name:0 "Bananas for Bananas"
-  snekreligion.17_desc:0 "Recently, one of our head librarians has come to court to request a large sum of bananas to be paid to him. He is only known as the Librarian, and is an orangutan with a brilliant command of the dewey decimal system, but not of the English language. He swung into the palace and angrily demanded "Ook", or else he would "Ook"."
-  snekreligion.17_1:0 "Let him have the bananas"
-  snekreligion.17_2:0 "We cannot afford it!"
- 
  #Halfdan pretenders
-  snekreligion.101_name:0 "The Halfdan Pretender"
-  snekreligion.101_desc:0 "Ever since the revolution of 1444, pretenders to the throne have waited abroad to overthrow our fledgling republic. Citing the prophecy of Halfdan, they claim to be backed by Snek and call our government a puppet of the pope. Bruce Halfdan has crossed the border in aims to seize the capital and crown himself Jarl."
-  snekreligion.101_1:0 "We will surrender to no tyranny!"
+  snekreligion.17_name:0 "The Halfdan Pretender"
+  snekreligion.17_desc:0 "Ever since the revolution of 1444, pretenders to the throne have waited abroad to overthrow our fledgling republic. Citing the prophecy of Halfdan, they claim to be backed by Snek and call our government a puppet of the pope. Bruce Halfdan has crossed the border in aims to seize the capital and crown himself Jarl."
+  snekreligion.17_1:0 "We will surrender to no tyranny!"
 
 #end_of_halfdan
-  snekreligion.102_name:0 "End of Halfdan"
-  snekreligion.102_desc:0 "The last Halfdan pretender has died in exile without an heir, marking the end of the dynasty. Their supporters have gone into hiding and with their claim to the throne extinct, the royalist movement has taken a major blow. A major threat to our republic has been left to the history books."
-  snekreligion.102_1:0 "Good Riddance!"
+  snekreligion.18_name:0 "End of Halfdan"
+  snekreligion.18_desc:0 "The last Halfdan pretender has died in exile without an heir, marking the end of the dynasty. Their supporters have gone into hiding and with their claim to the throne extinct, the royalist movement has taken a major blow. A major threat to our republic has been left to the history books."
+  snekreligion.18_1:0 "Good Riddance!"
 
 #dawn_of_a_people
-  snekreligion.103_name:0 "Dawn of A People"
-  snekreligion.103_desc:0 "For centuries, the Dutch have migrated in large numbers to Britain and settled with the locals. Over time cultural lines have been blurred and now many Dutch migrants have now integrated into their local communities. Despite the governments best efforts to enforce Dutch culture on the locals, decades of commerce and intermarriage have led to a unique melting pot of culture which is neither Anglo-Saxon or Dutch. These communities were initially disjointed and lacked a central identity, however with the invention of the printing press the first ‘Nedersakisch’ dictionaries have been produced. Despite being banned by the state, these dictionaries have spread across the island, leading to a birth of Nedersakisch art, culture and writing. Many are now demanding representation in Government and an end to discriminatory practices."
-  snekreligion.103_1:0 "Uneducated Rabbles"
+  snekreligion.19_name:0 "Dawn of A People"
+  snekreligion.19_desc:0 "For centuries, the Dutch have migrated in large numbers to Britain and settled with the locals. Over time cultural lines have been blurred and now many Dutch migrants have now integrated into their local communities. Despite the governments best efforts to enforce Dutch culture on the locals, decades of commerce and intermarriage have led to a unique melting pot of culture which is neither Anglo-Saxon or Dutch. These communities were initially disjointed and lacked a central identity, however with the invention of the printing press the first ‘Nedersakisch’ dictionaries have been produced. Despite being banned by the state, these dictionaries have spread across the island, leading to a birth of Nedersakisch art, culture and writing. Many are now demanding representation in Government and an end to discriminatory practices."
+  snekreligion.19_1:0 "Uneducated Rabbles"

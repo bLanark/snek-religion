@@ -49,9 +49,6 @@ glass_crisis = {
 scales_of_justice = {
 	local_missionary_strength = 0.01
 }
-ireland_converted = {
-	tolerance_own = 1
-}
 wight_reclaimed = {
 	diplomatic_reputation = 1
 }

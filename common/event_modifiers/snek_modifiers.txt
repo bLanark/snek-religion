@@ -47,7 +47,7 @@ glass_crisis = {
 		technology_cost = 0.1
 }
 scales_of_justice = {
-	global_missionary_strength = 0.01
+	local_missionary_strength = 0.01
 }
 ireland_converted = {
 	tolerance_own = 1

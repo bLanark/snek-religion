@@ -58,3 +58,6 @@ ulster_burnt = {
 wight_reclaimed = {
 	diplomatic_reputation = 1
 }
+great_success = {
+	global_colonial_growth = 10
+}

@@ -665,3 +665,74 @@ country_event = {  ###Holy site reclaimed : London###
 
 
 }
+###Holy site reclaimed: Isle of Wright
+country_event = {  ###Holy site reclaimed : Ilse of Wight###
+	id = snekreligion.14
+	title = "snekreligion.14_name"
+	desc = "snekreligion.14_desc"
+	picture ORTHODOX_eventPicture
+
+	trigger = {
+		owns = 234
+		religion = snek
+		ai = no
+	}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "snekreligion.14_1" ###How dare they overshadow a holy site in such way###
+		prestige = 10
+		add_country_modifier = {
+			name = wight_reclaimed
+			duration = 3650
+		}
+	}
+	option = {
+		name = "snekreligion.14_2" ###It will surely propser under our rule###
+		prestige = 10
+		add_country_modifier = {
+			name = 	wight_reclaimed
+			duration = 3650
+		}
+	}
+
+
+}
+###Holy site reclaimed: Ulster
+country_event = {  ###Holy site reclaimed : Ulster###
+	id = snekreligion.15
+	title = "snekreligion.15_name"
+	desc = "snekreligion.15_desc"
+	picture ORTHODOX_eventPicture
+
+	trigger = {
+		owns = 234
+		religion = snek
+		ai = no
+	}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "snekreligion.15_1" ###We shall burn his resting place to the ground###
+		any_owned_province = {
+			culture = irish
+			unrest = 5
+		}
+		add_country_modifier = {
+			name = ulster_burnt
+			duration = -1
+		}
+	}
+	option = {
+		name = "snekreligion.15_2" ###We cannot risk angering the people###
+		prestige = -15
+	}
+
+
+}

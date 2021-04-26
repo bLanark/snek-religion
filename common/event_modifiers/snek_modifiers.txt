@@ -58,3 +58,8 @@ great_success = {
 pro_heretics = { 
 	tolerance_heretic = 1  
 }
+marching_eagles = {
+	 	land_morale = 0.15
+		shock_damage_received = -0.10
+		infantry_cost = -0.15
+}

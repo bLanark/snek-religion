@@ -506,6 +506,9 @@ country_event = {  ###A Cunning Plan###
 	trigger = {
 		has_country_flag = cunning_plan
 	}
+	mean_time_to_happen = {
+		days = 1
+	}
 	
 	option = {
 		name = "snekreligion.10_1"
@@ -528,6 +531,9 @@ country_event = {  ###A Cunning Plan?###
 	is_trigerred_only = yes
 	trigger = {
 		has_country_flag = cunning_plan_2
+	}
+	mean_time_to_happen = {
+		days = 1
 	}
 
 	option = {

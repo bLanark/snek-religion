@@ -494,18 +494,27 @@ country_event = {
 	option = {
 		name = englishport.6.a
 		add_years_of_income = -1.00
+		if = { 
+		limit = { has_estate = estate_burghers }
 		add_estate_loyalty = {
    	 	estate = estate_burghers
     			loyalty = 10
 					}
+			}
+		else = {
+			add_splendor = 50
+			}
 		}
 	
 	option = {
 		name = englishport.6.b
+		if = { 
+		limit = { has_estate = estate_burghers }
 		add_estate_loyalty = {
-    		estate = estate_burghers
-   			 loyalty = -5
+   	 	estate = estate_burghers
+    			loyalty = 10
 					}
+			}
 		add_country_modifier = {
 			name = glass_crisis
 			duration = -1
@@ -543,10 +552,7 @@ country_event = {
 		add_years_of_income = 0.75
 		add_inflation = 5
 		change_innovativeness = 1
-		add_estate_loyalty = {
-    			estate = estate_burghers
-    			loyalty = 5
-				}
+		add_splendor = 100
 
 	}
 	

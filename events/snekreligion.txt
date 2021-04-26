@@ -158,10 +158,10 @@ country_event = {
 	}
 	option = {
 		name = "snekreligion.4_1"
-			add_province_modifier = {
-				name = snk_ireland_conversion
-				duration = -1
-			}		
+		add_country_modifier = {
+			name = ireland_converted
+			duration = -1
+		}		
 	}
 }
 

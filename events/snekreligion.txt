@@ -475,13 +475,13 @@ country_event = { ###Holy site reclaimed: Berwickshire###
 			name = beckshwire_reclaimed
 			duration = 36500
 		}
-		248 = {
+		4361 = {
 			rename_province = Berwickshire
 		}
 	}
 	option = {
 		name = "snekreligion.9_2"
-		248 = {
+		4361 = {
 			rename_province = Blackladder
 		}
 		owner = {

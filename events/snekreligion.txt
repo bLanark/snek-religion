@@ -767,3 +767,33 @@ country_event = {  ###American Dream###
 	}
 
 }
+
+#Bananas for Bananas
+country_event = {  ###Bananas for Bannanas
+	id = snekreligion.17
+	name = "snekreligion.17_name"
+	desc = "snekreligion.17_desc"
+	picture = OVEREXTENSION_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+		religion = snek
+	}
+
+	option = {  #Let him have the bananas!
+		name = "snekreligion.17_1"
+		add_adm_power = 50
+		add_treasury = -30
+	}
+	option = {  #We cannot afford this
+		name = "snekreligion.17_2"
+		add_treasury = 30
+		any_onwed_province = {
+			limit = {
+				is_capital = yes
+			}
+
+			add_devastation = 20
+		}
+	}
+}

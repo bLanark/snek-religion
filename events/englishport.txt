@@ -74,7 +74,7 @@ country_event = {
 			}
 			add_country_modifier = {
 				name = "rb_eng_passage_spheres"
-				duration = 1825
+				duration = 3625
 			}
 		}
 		else_if = {
@@ -92,7 +92,7 @@ country_event = {
 			}
 			add_country_modifier = {
 				name = "rb_eng_theory_warfare"
-				duration = 1825
+				duration = 3625
 			}
 		}
 		else_if = {
@@ -110,7 +110,7 @@ country_event = {
 			}
 			add_country_modifier = {
 				name = "rb_eng_philosophy_royalty"
-				duration = 1825
+				duration = 3625
 			}
 		}
 		else_if = {
@@ -128,7 +128,7 @@ country_event = {
 			}
 			add_country_modifier = {
 				name = "rb_eng_divine_common"
-				duration = 1825
+				duration = 3625
 			}
 		}
 		else_if = {
@@ -140,14 +140,14 @@ country_event = {
 			}
 			add_country_modifier = {
 				name = "rb_eng_national_economy"
-				duration = 1825
+				duration = 3625
 			}
 		}
 		custom_tooltip = "flavor_eng.9880.a.tooltip"
 		hidden_effect = {
 			country_event = {
 				id = englishport.1
-				days = 1825
+				days = 3625
 			}
 			if = {
 				limit = {

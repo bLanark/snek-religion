@@ -33,7 +33,6 @@ victorious_suffragettes = {
 	female_advisor_chance = 0.50
 	may_recruit_female_generals = yes
 	advisor_pool = 1
-	advisor_cost = -0.05
 }
 bureaucratic_defense = {
 	governing_cost = -0.10

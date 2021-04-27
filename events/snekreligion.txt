@@ -105,7 +105,10 @@ country_event = {
 		}
 		238 = {
 			owned_by = ROOT
-		}		
+		}	
+		233 = {
+			owned_by = ROOT
+		}			
 	}
 
 	mean_time_to_happen = {
@@ -657,7 +660,7 @@ country_event = {
 		ai = no
 	}
 	mean_time_to_happen = {
-		months = 1
+		months = 7300
 	}
 	
 	option = {  

@@ -756,3 +756,22 @@ country_event = {
 	}
 }
 
+#Credits Event
+country_event = {
+	id = snekreligion_credits
+	title = "snekreligion_credits_name"
+	desc = "snekreligion_credits_desc"
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		has_country_flag = snekreligion_credits_flag
+	}
+	option = {
+		name = snekreligion_credits.1
+		hidden_effect = {
+			clr_country_flag = snekreligion_credits_flag
+		}
+	}
+}

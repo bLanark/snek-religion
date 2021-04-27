@@ -460,44 +460,6 @@ country_event = {  ###A Cunning Plan?###
 		clr_country_flag = cunning_plan_2
 	}
 }
-#Rebalancing the Scales of Justice
-country_event = {
-	id = snekreligion.12
-	title = "snekreligion.12_name"
-	desc = "snekreligion.12_desc"
-	picture = PLAGUE_eventPicture
-
-	fire_only_once = yes
-
-	trigger = {
-		ai = no
-		religion = snek
-		NOT = { is_year = 1457 }
-		}	
-
-	mean_time_to_happen = {
-		months = 12
-	}
-	option = {
-		name = "snekreligion.12_1"
-		every_province = {
-			limit = {
-				OR = {
-					area = munster_area
-					area = connacht_area
-					area = ulster_area					
-					area = leinster_area
-				}
-				NOT = { owned_by = ROOT }
-			}
-			add_permanent_claim = ROOT
-			add_province_modifier = {
-				name = scales_of_justice
-				duration = 7300
-			}			
-		}
-	}
-}
 
 #Holy Site Reclaimed: London
 country_event = {  ###Holy site reclaimed : London###
@@ -738,6 +700,59 @@ country_event = {
 	option = {  
 		name = "snekreligion.21_2"
 		global_manpower = 1		 	
+	}
+}
+#Rebalancing the Scales of Justice
+country_event = {
+	id = snekreligion.12
+	title = "snekreligion.12_name"
+	desc = "snekreligion.12_desc"
+	picture = PLAGUE_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		religion = snek
+		NOT = { is_year = 1457 }
+		}	
+
+	mean_time_to_happen = {
+		months = 12
+	}
+	option = {
+		name = "snekreligion.12_1"
+		
+		tooltip = {
+			munster_area = {
+				add_permanent_claim = ROOT
+				add_province_modifier = {
+					name = scales_of_justice
+					duration = 7300
+				}	
+			}
+			connacht_area = {
+				add_permanent_claim = ROOT
+				add_province_modifier = {
+					name = scales_of_justice
+					duration = 7300
+				}	
+			}
+			ulster_area = {
+				add_permanent_claim = ROOT				
+				add_province_modifier = {
+					name = scales_of_justice
+					duration = 7300
+				}	
+			}
+			leinster_area = {
+				add_permanent_claim = ROOT
+				add_province_modifier = {
+					name = scales_of_justice
+					duration = 7300
+				}
+			}
+		}	
 	}
 }
 

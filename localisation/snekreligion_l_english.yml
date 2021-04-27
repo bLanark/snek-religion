@@ -29,7 +29,7 @@
  #William Shakespeare and the Three Victorians
   snekreligion.5_name:0 "William Shakespeare and the Three Victorians"
   snekreligion.5_desc:0 "A young man named William Shakespeare has written a play chronicling the saga of the legendary “Three Victorians'' of Cuthberht, Álfr, and Úrfkell. His plays are garnering significant attention from peasants and nobles alike. "
-  snekreligion.5_1:0 "That Shakespeare is a passing fad. He’ll never make it anywhere!"
+  snekreligion.5_1:0 "That Shakespeare is a passing trend. He’ll never make it anywhere!"
   snekreligion.5_2:0 "We must recruit this man into our court!"
 
  #Do Counts count?
@@ -47,16 +47,8 @@
   snekreligion.7_2:0 "He is to valuable to be recruited into politics"
   snekreligion.7_3:0 "Promote this craze to unify our people"
 
- #Calculating Captain
-  snekreligion.8_name:0 "Captain’s Calculations"
-  snekreligion.8_desc:0 "A great English captain is gaining popularity and support, not only from his peers, but also from the common sailors and ensigns in Britain, who see him as a countryman and a symbol of English power. He is not, however, without enemies. A great many Dutch captains contest his rise to the rank of captain on the basis that he is English, not Dutch, and therefore not eligible for the rank due to his lower social class."
-  snekreligion.8_1:0 "We must utilize his talents"
-  snekreligion.8_2:0 "We will support him in his quest for equality"
-  snekreligion.8_3:0 "We must oppose him"
-  snekreligion.8_4:0 "I suppose we could let it play out"
-  
  #Holy site reclaimed: Berwickshire
-  snekreligion.9_name:0 "Holy site reclaimed: Berwichshire"
+  snekreligion.9_name:0 "Holy site reclaimed - Berwichshire"
   snekreligion.9_desc:0 "We have successfully reclaimed one of the holy sites of the Church of the Victorious Snek. We have the opportunity to rename it to its original Victorian name, but a local noble called Lord Edmund has suggested an alternative. He insists it is only the first stage in his ‘cunning plan’..."
   snekreligion.9_1:0 "Restore its proper name, Berwickshire!"
   snekreligion.9_2:0 "Rename it after a local river"
@@ -112,16 +104,16 @@
   snekreligion.12_1:0 "Thisss isss a lossss that mussst be avenged"
   
  #Holy site reclamed: London
-  snekreligion.13_name:0 "Holy site reclaimed: London"
-  snekreligion.12_desc:0 "We have successfully reclaimed one of the holy sites of the Church of the Victorious Snek; the birthplace of Victoria herself. Now that we have brought it back into the fold, London is sure to grow into an even greater city under the light and guidance of its divine protector."
+  snekreligion.13_name:0 "Holy site reclaimed - London"
+  snekreligion.13_desc:0 "We have successfully reclaimed one of the holy sites of the Church of the Victorious Snek; the birthplace of Victoria herself. Now that we have brought it back into the fold, London is sure to grow into an even greater city under the light and guidance of its divine protector."
   snekreligion.13_1:0 "Victoria would be proud"
   snekreligion.13_2:0 "London will be a metropolis under our rule"
   
  #Holy site reclaimed: Isle of Wight
-  snekreligion.14_name:0 "Holy site reclaimed: Isle of Wight"
+  snekreligion.14_name:0 "Holy site reclaimed - Isle of Wight"
   snekreligion.14_desc:0 "We have successfully reclaimed one of the holy sites of the Church of the Victorious Snek. The site in question is the place of death of our great prophet, Victoria, and as such, some are beginning to question whether or not we should permit it to remain dominated by the county of Hampshire."
   snekreligion.14_1:0 "How dare they overshadow a holy site in such a way!"
-  snekreligion.14_2:0 " It will surely prosper under our rule"
+  snekreligion.14_2:0 "It will surely prosper under our rule"
 
  #American Dream
   snekreligion.16_name:0 "American Dream"

@@ -65,3 +65,91 @@ country_event = {  ###Holy site reclaimed : Ulster###
 
 
 }
+#Calculating Captain
+country_event = { 
+	id = snekreligion.8
+	title = "snekreligion.8_name"
+	desc = "snekreligion.8_desc"
+	picture = NAVAL_MILITARY_eventPicture
+
+	is_trigerred_only = yes
+	fire_only_once = yes
+	trigger = {
+		religion = snek
+		owns = 1850 
+		has_reform = pirate_republic_reform	
+		NOT = {
+			has_country_flag = counting_count
+			has_country_flag = calculating_captain
+		}
+	}
+	mean_time_to_happen = {
+		months = 60 
+	}
+
+	option = {
+		name = "snekreligion.8_1"
+		ai_chance = {
+			factor = 50
+		}
+		define_admiral = {
+			type = diplomat 
+			name = "Cristo von Count"
+			shock = 4
+			fire = 4
+			manuever = 5
+		}
+		any_owned_province = {
+			culture = english
+			unrest = -2
+		}
+		any_owned_province = {
+			culture = dutch
+			unrest = 2
+		}
+		add_country_flag = calculating_captain
+	}
+	option = {
+		name = "snekreligion.8_2"
+		ai_chance = {
+			factor = 10
+		}
+		any_owned_province = {
+			culture = english
+			unrest = -2
+		}
+		any_owned_province = {
+			culture = dutch
+			unrest = 1
+		}
+		add_country_flag = calculating_captain
+		
+	}
+	option = {
+		name = "snekreligion.8_3"
+		ai_chance = {
+			factor = 40
+		}
+		any_owned_province = {
+			culture = dutch
+			unrest = -1
+		}
+		any_owned_province = {
+			culture = english
+			unrest = 2
+		}
+		add_country_flag = calculating_captain
+	}
+	option = {
+		name = "snekreligion.8_4"
+		ai_chance = {
+			factor = 10
+		}
+		stability = -1
+		add_country_modifier = {
+			name = calculating_captain #“Calculating Captain” for 6 months +2 diplo rep
+			duration = 183
+		}
+		add_country_flag = calculating_captain
+	}
+}

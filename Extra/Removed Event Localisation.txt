@@ -11,3 +11,11 @@
   snekreligion.15_1:0 "We shall burn his resting place to the ground"
   snekreligion.15_2:0 "We cannot risk angering the people"
   
+ #Calculating Captain
+  snekreligion.8_name:0 "Captain’s Calculations"
+  snekreligion.8_desc:0 "A great English captain is gaining popularity and support, not only from his peers, but also from the common sailors and ensigns in Britain, who see him as a countryman and a symbol of English power. He is not, however, without enemies. A great many Dutch captains contest his rise to the rank of captain on the basis that he is English, not Dutch, and therefore not eligible for the rank due to his lower social class."
+  snekreligion.8_1:0 "We must utilize his talents"
+  snekreligion.8_2:0 "We will support him in his quest for equality"
+  snekreligion.8_3:0 "We must oppose him"
+  snekreligion.8_4:0 "I suppose we could let it play out"
+  

@@ -16,7 +16,7 @@ christian = {
 
 	
 	snek = {
-		#Church of the Victorious Snek or Victorian-Snekism
+		#Church of the Victorious Snek
 		icon = 28
 		color = {255 105 180}
 		country = {

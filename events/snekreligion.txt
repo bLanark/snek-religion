@@ -715,11 +715,10 @@ country_event = {
 	mean_time_to_happen = {
 		months = 12
 	}
+
 	option = {
 		name = "snekreligion.12_1"
-		
-		tooltip = {
-			munster_area = {
+					munster_area = {
 				add_permanent_claim = ROOT
 				add_province_modifier = {
 					name = scales_of_justice
@@ -747,7 +746,6 @@ country_event = {
 					duration = 7300
 				}
 			}
-		}	
 	}
 }
 

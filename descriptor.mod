@@ -5,5 +5,5 @@ tags={
 }
 name="Snek Religion"
 picture="thumbnail.png"
-supported_version="1.30.6"
+supported_version="1.31.0"
 remote_file_id="2465094959"

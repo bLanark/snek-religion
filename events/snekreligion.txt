@@ -646,28 +646,7 @@ country_event = {
 	}
 }
 
-#March of the Eagles
-country_event = {  
-	id = snekreligion.20
-	title = "snekreligion.20_name"
-	desc = "snekreligion.20_desc"
-	picture = MILITARY_CAMP_eventPicture
-	fire_only_once = yes
-	trigger = {
-		religion = snek
-		is_subject = no	
-		is_at_war = yes
-		ai = no
-	}
-	mean_time_to_happen = {
-		months = 7300
-	}
-	
-	option = {  
-		name = "snekreligion.20_1"
-		add_manpower = 1
-	}
-}
+
 #Heretics lurk among us
 country_event = {  
 	id = snekreligion.21
@@ -697,57 +676,7 @@ country_event = {
 		}
 	}
 }
-#Rebalancing the Scales of Justice
-country_event = {
-	id = snekreligion.12
-	title = "snekreligion.12_name"
-	desc = "snekreligion.12_desc"
-	picture = PLAGUE_eventPicture
 
-	fire_only_once = yes
-
-	trigger = {
-		ai = no
-		religion = snek
-		NOT = { is_year = 1457 }
-		}	
-
-	mean_time_to_happen = {
-		months = 12
-	}
-
-	option = {
-		name = "snekreligion.12_1"
-					munster_area = {
-				add_permanent_claim = ROOT
-				add_province_modifier = {
-					name = scales_of_justice
-					duration = 7300
-				}	
-			}
-			connacht_area = {
-				add_permanent_claim = ROOT
-				add_province_modifier = {
-					name = scales_of_justice
-					duration = 7300
-				}	
-			}
-			ulster_area = {
-				add_permanent_claim = ROOT				
-				add_province_modifier = {
-					name = scales_of_justice
-					duration = 7300
-				}	
-			}
-			leinster_area = {
-				add_permanent_claim = ROOT
-				add_province_modifier = {
-					name = scales_of_justice
-					duration = 7300
-				}
-			}
-	}
-}
 
 #Credits Event
 country_event = {

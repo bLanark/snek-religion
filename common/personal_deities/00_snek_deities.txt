@@ -7,7 +7,7 @@ alfr =
 	ae_impact = -0.05
 	#Diplomacy
 	allow = { religion = snek }
-	sprite = 7
+	sprite = 8
 
 	ai_will_do = {
 		factor = 1
@@ -24,7 +24,7 @@ urfkell =
 	manpower_recovery_speed = 0.10	
 	#Military
 	allow = { religion = snek }
-	sprite = 8
+	sprite = 6
 
 	ai_will_do = {
 		factor = 1
@@ -45,7 +45,7 @@ urfkell =
 	global_tax_modifier = 0.10
 	#Economy
 	allow = { religion = snek }
-	sprite = 9
+	sprite = 10
 
 	ai_will_do = {
 		factor = 1
@@ -71,7 +71,7 @@ addaway =
 	stability_cost_modifier = -0.05
 	#Urest
 	allow = { religion = snek }
-	sprite = 12
+	sprite = 11
 
 	ai_will_do = {
 		factor = 1	
@@ -84,7 +84,7 @@ paradoxus =
 	colonist_placement_chance = 0.2
 	#Exploration
 	allow = { religion = snek }
-	sprite = 10
+	sprite = 9
 
 	ai_will_do = {
 		factor = 1
@@ -105,7 +105,7 @@ cyrus =
 	global_institution_spread = 0.1
 	#Tech
 	allow = { religion = snek }
-	sprite = 11
+	sprite = 7
 	
 	ai_will_do = {
 		factor = 1	
@@ -118,7 +118,7 @@ wikkel =
 	tolerance_own = 1
 	#Religious
 	allow = { religion = snek }
-	sprite = 11
+	sprite = 12
 
 	ai_will_do = {
 		factor = 1	

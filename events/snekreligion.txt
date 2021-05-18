@@ -583,10 +583,10 @@ country_event = {
 
 	option = {  #we will surrender to no tyranny!
 		name = "snekreligion.17_1"
-		246 = {
+		4367 = {
 			spawn_rebels = {
 				type = pretender_rebels
-				size = 4
+				size = 3
 				leader = "Bruce"
 				leader_dynasty = "Halfdan"
 			}

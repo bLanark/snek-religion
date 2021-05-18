@@ -26,7 +26,7 @@ country_event = {
 		hidden_effect = {
 			country_event = {
 				id = senate_gov.2
-				days = 60
+				days = 30
 			}										
 		}
 	}
@@ -62,7 +62,7 @@ country_event = {
 		}
 	}	
 	option = {
-		ai_chance = {factor = 90}
+		ai_chance = {factor = 10}
 		name = "merchant_victory"
 		DMA = {    #The events tool tip says that we declare war on scotland but it doesnt actually work 
 			change_government = republic  

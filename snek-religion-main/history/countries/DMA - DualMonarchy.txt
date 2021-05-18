@@ -1,0 +1,33 @@
+government = monarchy
+add_government_reform = feudalism_reform
+mercantilism = 10
+technology_group = western
+primary_culture = dutch
+add_accepted_culture = english
+religion = snek 
+capital = 245 # York
+
+change_estate_land_share = {	
+	estate = estate_church
+	share = -10
+}
+change_estate_land_share = {
+	estate = estate_burghers
+	share = -10
+}
+
+#1422.8.31 = { #Succession
+
+change_estate_land_share = { #compensates for lack of nobles, distributes 20 between the remaining estates
+	estate = all
+	share = 20
+}
+
+1444.11.10 = { 		#I took this from the Hungary.txt, It'll put us into a regency (We'll have a regency at the start but then we'll get an event which will let us choose our government type)
+	monarch = {
+		adm = 0
+		mil = 0
+		dip = 0
+		regent = yes
+	}
+}

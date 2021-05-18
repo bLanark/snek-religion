@@ -1,0 +1,60 @@
+# Modifiers used in the mod
+
+snk_tolerate_nahuatl = {
+	tolerance_heathen = 1
+}
+snk_reject_nahuatl = { 
+	local_missionary_strength = 0.02
+}
+united_in_cloth = {
+	global_unrest = -1
+}
+counting_count = {
+	diplomatic_reputation = 2
+}
+snk_ireland_conversion = {
+	local_missionary_strength = 0.01
+}
+cunning_plan = {
+	ae_impact = -0.2
+	spy_offense = -0.25
+}
+cunning_plan_2 = {
+	ae_impact = 0.2
+	spy_offense = 0.25	
+}
+beckshwire_reclaimed = {
+	global_missionary_strength = 0.01
+}
+unfaithful_government = {
+	tolerance_own = -3
+}
+victorious_suffragettes = {
+	female_advisor_chance = 0.50
+	may_recruit_female_generals = yes
+	advisor_pool = 1
+}
+bureaucratic_defense = {
+	governing_cost = -0.10
+	naval_forcelimit_modifier = -0.05
+}
+glass_crisis = {
+	global_trade_goods_size_modifier = -0.1
+	technology_cost = 0.1
+}
+scales_of_justice = {
+	local_missionary_strength = 0.01
+}
+wight_reclaimed = {
+	diplomatic_reputation = 1
+}
+london_reclaimed = {
+	tolerance_own = 1
+}
+great_success = {
+	global_colonial_growth = 10
+}
+pro_heretics = { 
+	tolerance_heretic = 1  
+}
+

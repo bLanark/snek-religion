@@ -1,0 +1,20 @@
+#Scotland-Dual Monarchy-West and East Mercia
+vassal = {
+	first = SCO
+	second = DMA
+	start_date = 1444.1.1
+	end_date = 1449.1.1
+}
+vassal = {
+	first = SCO
+	second = EMR
+	start_date = 1444.1.1
+	end_date = 1449.1.1
+}
+vassal = {
+	first = SCO
+	second = WEM
+	start_date = 1444.1.1
+	end_date = 1449.1.1
+}
+

@@ -1,0 +1,84 @@
+##############################
+#Senatorial government events#
+##############################
+namespace = senate_gov
+#Emergency Senate Hearing
+country_event = {
+	id = senate_gov.1
+	title = "senate_gov.1.t"
+	desc = "senate_gov.1.d"
+	picture = LIBERUM_VETO_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = DMA
+		has_regency = yes
+		NOT = {government = republic}
+	}
+	
+	mean_time_to_happen = {
+		months = 3
+	}
+	
+	option = {
+		name = senate_gov_start
+		hidden_effect = {
+			country_event = {
+				id = senate_gov.2
+				days = 30
+			}										
+		}
+	}
+}
+#Senate_Results
+country_event = {
+	id = senate_gov.2
+	title = "senate_gov.2.t"
+	desc = "senate_gov.2.d"
+	picture = LIBERUM_VETO_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		ai_chance = {factor = 90}
+		name = "piratical_victory"
+		DMA = {    #The events tool tip says that we declare war on scotland but it doesnt actually work 
+			change_government = republic 
+			add_government_reform = pirate_republic_reform
+			add_republican_tradition = 50
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.8
+					cavalry = 0.2
+				}
+			}
+			hidden_effect = {
+				country_event = {
+					id = 700
+				}
+			}
+		}
+	}	
+	option = {
+		ai_chance = {factor = 10}
+		name = "merchant_victory"
+		DMA = {    #The events tool tip says that we declare war on scotland but it doesnt actually work 
+			change_government = republic  
+			add_government_reform = merchants_reform
+			add_republican_tradition = 50
+			capital_scope = {
+				build_to_forcelimit = {
+					infantry = 0.8
+					cavalry = 0.2
+				}
+			}
+			hidden_effect = {
+				country_event = {
+					id = 700
+				}
+			}	
+		}
+	}	
+}

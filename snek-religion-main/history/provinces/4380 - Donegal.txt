@@ -1,20 +1,18 @@
-#372 - Tyrone
+#4380 - Donegal
 
-owner = DMA
-controller = DMA
-add_core = IRE
-add_core = DMA
+owner = IRE
+controller = IRE
 culture = irish
-culture = irish
-religion = snek
+religion = catholic
 hre = no
-base_tax = 3
-base_production = 3
-trade_goods = wool
-base_manpower = 2
-capital = "Dungannon"
+base_tax = 2
+base_production = 2
+trade_goods = fish
+base_manpower = 1
+capital = "Donegal"
 is_city = yes
-add_core = TYR
+add_core = IRE
+add_core = TRY
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
@@ -31,13 +29,10 @@ discovered_by = eastern
 1642.6.7 = { add_core = IRE } # Confederation of Kilkenny
 1646.6.5 = { controller = IRE }
 1650.6.21 = { controller = ENG } # Battle of Scarrifhollis
-1707.5.12 = {
-	owner = GBR
+1707.5.12 = {	owner = GBR
 	controller = GBR
 	add_core = GBR
 	remove_core = ENG
 }
-1711.1.1 = { trade_goods = cloth } # Formation of Linen Board
-1768.1.1 = { capital = "Omagh" }
 1798.5.23 = { unrest = 10 } # Irish rebellion
 1798.7.14 = { unrest = 0 } # The rebels are defeated

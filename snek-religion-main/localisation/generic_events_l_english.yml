@@ -4579,7 +4579,7 @@
  desc_dancing_on_the_knife_good:0 "Our diplomatic efforts have been successful."
  dancing_on_the_knife_bad:0 "Dancing on the Knife"
  desc_dancing_on_the_knife_bad:0 "Our diplomatic efforts have failed."
-  senate_gov.1.t:0"Emergency Senate Hearing"
+ senate_gov.1.t:0"Emergency Senate Hearing"
  senate_gov.1.d:0"We have spent too long yielding to Scottish yoke, We must convene an emergency senatorial meeting to end the interregnum and form a government which can overthrow the Kingdom of Alba."
  senate_gov.2.t:0"Hearing Results"
  senate_gov.2.d:0"All the different parties have been debating and voting on the viability of all the different types of governments proposed by their fellow senators in Jórvík over the last month, Now its the time to count the votes..."

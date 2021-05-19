@@ -1,0 +1,21 @@
+ #Bananas for Bananas
+  snekreligion.17_name:0 "Bananas for Bananas"
+  snekreligion.17_desc:0 "Recently, one of our head librarians has come to court to request a large sum of bananas to be paid to him. He is only known as the Librarian, and is an orangutan with a brilliant command of the dewey decimal system, but not of the English language. He swung into the palace and angrily demanded "Ook", or else he would "Ook"."
+  snekreligion.17_1:0 "Let him have the bananas"
+  snekreligion.17_2:0 "We cannot afford it!"
+
+  
+ #Holy site reclaimed: Ulster
+  snekreligion.15_name:0 "Holy site reclaimed: Ulster"
+  snekreligion.15_desc:0 "We have successfully reclaimed one of the holy sites of the Church of the Victorious Snek. This is no ordinary place however, as Ulster is the place of death of one greatest evils our kind has ever known: St. Patrick; the bane of a once-prosperous realm of our lost brothers in Ireland."
+  snekreligion.15_1:0 "We shall burn his resting place to the ground"
+  snekreligion.15_2:0 "We cannot risk angering the people"
+  
+ #Calculating Captain
+  snekreligion.8_name:0 "Captain’s Calculations"
+  snekreligion.8_desc:0 "A great English captain is gaining popularity and support, not only from his peers, but also from the common sailors and ensigns in Britain, who see him as a countryman and a symbol of English power. He is not, however, without enemies. A great many Dutch captains contest his rise to the rank of captain on the basis that he is English, not Dutch, and therefore not eligible for the rank due to his lower social class."
+  snekreligion.8_1:0 "We must utilize his talents"
+  snekreligion.8_2:0 "We will support him in his quest for equality"
+  snekreligion.8_3:0 "We must oppose him"
+  snekreligion.8_4:0 "I suppose we could let it play out"
+  

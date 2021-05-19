@@ -1,0 +1,770 @@
+########################################
+# Flavor Events for Church of Snek
+########################################
+
+namespace = snekreligion
+#Rediscovering our roots? - Teotihuacan
+country_event = {
+	id = snekreligion.1
+	title = "snekreligion.1_name"
+	desc = "snekreligion.1_desc"
+	picture = EXPLORERS_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion = snek
+		852 = {
+			country_or_non_sovereign_subject_holds = ROOT
+		}
+		ai = no
+	}
+	
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	option = {
+		name = "snekreligion.1_1" #Reject their faith
+
+		mexico_region = {
+			limit = {
+				religion = nahuatl
+			}
+
+			add_province_modifier = {
+				name = snk_reject_nahuatl
+				duration = -1
+			}
+		}
+	}
+
+	option = {
+        name = "snekreligion.1_2" #Tolerate Nahuatl
+        add_country_modifier = {
+			name = snk_tolerate_nahuatl
+			duration = -1
+		}
+	}
+}
+
+#A Most Serpentine & Serene Quincentenary
+country_event = {
+	id = snekreligion.2
+	title = "snekreligion.2_name"
+	desc = "snekreligion.2_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		is_year = 1457
+		religion = snek
+	}
+
+	mean_time_to_happen = {
+		months = 6
+	}
+
+	option = {
+		name = "snekreligion.2_1"
+
+		british_isles_region = {
+			limit = {
+				NOT = {
+					or = {
+						area = connacht_area
+						area = leinster_area
+						area = ulster_area
+						area = munster_area
+					}
+				}
+			}
+			add_permanent_claim = ROOT
+		}
+	}
+}
+
+#The Reconquest of Albion
+country_event = {
+	id = snekreligion.3
+	title = "snekreligion.3_name"
+	desc = "snekreligion.3_desc"
+	picture = GOOD_WITH_MONARCH_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		religion = snek
+		236 = {
+			owned_by = ROOT
+		}
+		248 = {
+			owned_by = ROOT
+		}
+		238 = {
+			owned_by = ROOT
+		}	
+		233 = {
+			owned_by = ROOT
+		}			
+	}
+
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "snekreligion.3_1"
+
+		add_stability = 1
+		add_prestige = 20
+	}
+}
+
+ #The Conversion of Ireland
+country_event = {
+	id = snekreligion.4
+	title = "snekreligion.4_name"
+	desc = "snekreligion.4_desc"
+	picture = POPE_PREACHING_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		religion = snek		
+		munster_area = {
+			type = all
+			owned_by = ROOT
+			religion = snek
+		}
+		connacht_area = {
+			type = all
+			owned_by = ROOT
+			religion = snek			
+		}
+		ulster_area = {
+			type = all
+			owned_by = ROOT
+			religion = snek			
+		}
+		leinster_area = {
+			type = all
+			owned_by = ROOT
+			religion = snek			
+		}
+	}
+	option = {
+		name = "snekreligion.4_1"
+		add_country_modifier = {
+			name = snk_ireland_conversion
+			duration = -1
+		}		
+	}
+}
+
+
+#William Shakespeare and the Three Victorians
+country_event = {
+	id = snekreligion.5
+	title = "snekreligion.5_name"
+	desc = "snekreligion.5_desc"
+	picture = THEATRE_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		religion = snek
+		is_year = 1585
+		236 = {
+			owned_by = ROOT
+		}	
+	}
+
+	mean_time_to_happen = {
+		months = 84
+	}
+
+	option = {
+		name = "snekreligion.5_1"
+		add_prestige = 10
+	}
+	option = {
+		name = "snekreligion.5_2"
+		define_advisor = {
+			name = "William Shakespeare" #The greatest writer of all   
+			type = artist
+			skill = 3
+			culture = anglo_saxon
+			location = 236 #London
+			discount = yes
+		}
+	}
+}
+
+#Do Counts count?
+country_event = { 
+	id = snekreligion.6
+	title = "snekreligion.6_name"
+	desc = "snekreligion.6_desc"
+	picture = WESTERNISATION_eventPicture
+	
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		religion = snek
+		owns = 1850 
+		has_estate = estate_noble
+		
+		NOT = {
+			has_country_flag = counting_count
+			has_country_flag = calculating_captain
+		}
+	}
+	mean_time_to_happen = {
+		months = 60 
+	}
+	option = {
+		name = "snekreligion.6_1"
+		ai_chance = {
+			factor = 50
+		}
+		define_advisor = {
+			type = diplomat 
+			name = "Count Cristo"
+			culture = anglo_saxon
+			religion = snek
+			discount = yes
+			skill = 2
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -5
+		}
+		set_country_flag = counting_count
+	}
+	option = {
+		name = "snekreligion.6_2"
+		ai_chance = {
+			factor = 10
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = -5
+		}
+		any_owned_province = {
+			culture = anglo_saxon
+			unrest = -2
+		}
+		set_country_flag = counting_count
+		
+	}
+	option = {
+		name = "snekreligion.6_3"
+		ai_chance = {
+			factor = 40
+		}
+		add_estate_loyalty = {
+			estate = estate_nobles
+			loyalty = 10
+		}
+		any_owned_province = {
+			culture = anglo_saxon
+			unrest = 1
+		}
+		set_country_flag = counting_count
+	}
+	option = {
+		name = "snekreligion.6_4"
+		ai_chance = {
+			factor = 10
+		}
+		stability = -1
+		add_country_modifier = {
+			name = counting_count ###“Counting Count” for 6 months +2 diplo rep###
+			duration = 183
+		}
+		set_country_flag = counting_count
+	}
+}
+
+#A Rose Amongst a Thousand Thorns
+country_event = {
+	id = snekreligion.7
+	title = "snekreligion.7_name"
+	desc = "snekreligion.7_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+		flag = is_player
+		religion = snek
+		owns = 238
+		NOT = {
+			has_country_flag = united_in_cloth
+			has_country_flag = flag_mania
+			has_country_flag = flag_craze
+		}
+	}
+	mean_time_to_happen = {
+		months = 180
+	}
+	option = {
+		ai_chance = {
+			factor = 100
+		}
+		name = "snekreligion.7_1"
+		define_advisor = {
+			type = artist
+			culture = anglo_saxon
+			religion = snek
+			skill = 3 
+			discount = yes
+		}
+		change_price = {
+			trade_goods = cloth
+			key = FLAG_CRAZE
+			value = 0.1
+			duration = 3650
+		}
+		prestige = 10
+		set_country_flag = flag_craze
+	}
+	option = {
+		ai_chance = {
+			factor = 50
+		}
+		name = "snekreligion.7_2"
+		change_price = {
+			trade_goods = cloth
+			key = FLAG_MANIA
+			value = 0.15
+			duration = 5475
+		}
+		prestige = 10
+		set_country_flag = flag_mania
+	}
+	option = {
+		ai_chance = {
+			factor = 50
+		}
+		name = "snekreligion.7_3"
+		prestige = 10
+		add_country_modifier = {
+			name = united_in_cloth #“United in cloth” -1 National Unrest for 60 months)
+			duration = 1825
+		}
+	}
+	
+}
+
+###Holy site reclaimed Berwichshire
+country_event = { ###Holy site reclaimed: Berwickshire###
+	id = snekreligion.9
+	title = "snekreligion.9_name"
+	desc = "snekreligion.9_desc"
+	picture =  ORTHODOX_eventPicture
+
+	fire_only_once = yes
+	
+	trigger = {
+		owns = 248
+		religion = snek
+		ai = no
+	}
+	mean_time_to_happen = {
+		months = 48
+	}
+
+	option = {
+		name = "snekreligion.9_1"
+		add_country_modifier = {
+			name = beckshwire_reclaimed
+			duration = 36500
+		}
+		248 = { 
+			change_province_name = Berwickshire 
+		}
+	}
+	option = {
+		name = "snekreligion.9_2"
+
+		248 = { 
+			change_province_name = Blackladder 
+		}		
+		random_list = {
+            25 = {
+				country_event = {
+					id = snekreligion.10
+					days = 10
+				}
+				set_country_flag = trigger_cunning_plan		
+            }
+            75 = {
+				country_event = {
+					id = snekreligion.11
+					days = 10
+				}
+				set_country_flag = trigger_cunning_plan_2					
+            }
+        }
+	}
+}
+
+###A Cunning Plan###
+country_event = {  ###A Cunning Plan###
+	id = snekreligion.10
+	title = "snekreligion.10_name"
+	desc = "snekreligion.10_desc"
+	picture = PAINTER_ARTIST_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = trigger_cunning_plan
+	}
+	option = {
+		name = "snekreligion.10_1"
+		add_country_modifier = {
+			name = cunning_plan
+			duration = 365
+		}
+	}
+}
+
+###A Cunning Plan?###
+country_event = {  ###A Cunning Plan?###
+	id = snekreligion.11
+	title = "snekreligion.11_name"
+	desc = "snekreligion.11_desc"
+	picture = OVEREXTENSION_eventPicture
+
+	is_triggered_only = yes
+	trigger = {
+		has_country_flag = trigger_cunning_plan_2
+	}
+
+	option = {
+		name = "snekreligion.11_1"
+		add_country_modifier = {
+			name = cunning_plan_2
+			duration = 182
+		}
+	}
+}
+
+#Holy Site Reclaimed: London
+country_event = {  ###Holy site reclaimed : London###
+	id = snekreligion.13
+	title = "snekreligion.13_name"
+	desc = "snekreligion.13_desc"
+	picture = ORTHODOX_eventPicture
+
+	trigger = {
+		owns = 236
+		religion = snek
+		ai = no
+	}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "snekreligion.13_1" ###Victoria would be proud###
+		prestige = 15
+		add_country_modifier = {
+			name = london_reclaimed
+			duration = 3650
+		}
+	}
+	option = {
+		name = "snekreligion.13_2" ###London will be a metropolis under our rule###
+		prestige = 10
+		add_country_modifier = {
+			name = london_reclaimed
+			duration = 3650
+		}
+		236 = {
+			move_capital_effect = yes
+		}
+	}
+}
+###Holy site reclaimed: Isle of Wright
+country_event = {  ###Holy site reclaimed : Ilse of Wight###
+	id = snekreligion.14
+	title = "snekreligion.14_name"
+	desc = "snekreligion.14_desc"
+	picture = ORTHODOX_eventPicture
+
+	trigger = {
+		owns = 234
+		religion = snek
+		ai = no
+	}
+	fire_only_once = yes
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "snekreligion.14_1" ###How dare they overshadow a holy site in such way###
+		prestige = 10
+		add_country_modifier = {
+			name = wight_reclaimed
+			duration = 3650
+		}
+		234 = {
+			change_province_name = "Isle of Wight"
+		}
+	}
+	option = {
+		name = "snekreligion.14_2" ###It will surely propser under our rule###
+		prestige = 10
+		add_country_modifier = {
+			name = 	wight_reclaimed
+			duration = 3650
+		}
+	}
+}
+
+#American Dream
+country_event = {
+	id = snekreligion.16
+	title = "snekreligion.16_name"
+	desc = "snekreligion.16_desc"
+	picture = COLONIZATION_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		religion = snek
+		custom_trigger_tooltip = {
+			tooltip = miss_colonize_eastern_america
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 1
+				colonial_region = colonial_eastern_america
+				is_city = yes
+			}
+		}
+		ai = no
+	}
+	
+	mean_time_to_happen = {
+		months = 12
+	}
+	
+	option = {
+		name = "snekreligion.16_1" 
+		add_country_modifier = {
+			name = great_success
+			duration = 1080
+		}
+	}
+}
+
+#halfdan_pretenders
+country_event = {  
+	id = snekreligion.17
+	title = "snekreligion.17_name"
+	desc = "snekreligion.17_desc"
+	picture = WAR_OF_THE_ROSES_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+		religion = snek
+		is_subject = no
+	}
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {  #we will surrender to no tyranny!
+		name = "snekreligion.17_1"
+		246 = {
+			spawn_rebels = {
+				type = pretender_rebels
+				size = 4
+				leader = "Bruce"
+				leader_dynasty = "Halfdan"
+			}
+		}
+	}
+}
+
+#end_of_halfdan
+country_event = {  
+	id = snekreligion.18
+	title = "snekreligion.18_name"
+	desc = "snekreligion.18_desc"
+	picture = KING_SICK_IN_BED_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+		religion = snek
+		is_subject = no
+		year = 1550
+		government = republic
+	}
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {  #good_riddance
+		name = "snekreligion.18_1"
+		add_stability = 1
+	}
+}
+
+#dawn_of_a_people
+country_event = {  
+	id = snekreligion.19
+	title = "snekreligion.19_name"
+	desc = "snekreligion.19_desc"
+	picture = STREET_SPEECH_eventPicture
+
+	fire_only_once = yes
+	trigger = {
+		religion = snek
+		is_subject = no
+		is_institution_enabled = printing_press
+	}
+	mean_time_to_happen = {
+		months = 240
+	}
+
+	option = {  #uneducated_hoi_polloi
+		name = "snekreligion.19_1"
+		add_stability = -1
+		every_core_country = { 
+			limit = { culture = anglo_saxon }
+			add_province_triggered_modifier  = anglo_dutch_culture				
+ 		}
+					 	
+	}
+}
+#Rebalancing the Scales of Justice
+country_event = {
+	id = snekreligion.12
+	title = "snekreligion.12_name"
+	desc = "snekreligion.12_desc"
+	picture = PLAGUE_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		ai = no
+		religion = snek
+		NOT = { is_year = 1457 }
+		}	
+
+	mean_time_to_happen = {
+		months = 12
+	}
+
+	option = {
+		name = "snekreligion.12_1"
+					munster_area = {
+				add_permanent_claim = ROOT
+				add_province_modifier = {
+					name = scales_of_justice
+					duration = 7300
+				}	
+			}
+			connacht_area = {
+				add_permanent_claim = ROOT
+				add_province_modifier = {
+					name = scales_of_justice
+					duration = 7300
+				}	
+			}
+			ulster_area = {
+				add_permanent_claim = ROOT				
+				add_province_modifier = {
+					name = scales_of_justice
+					duration = 7300
+				}	
+			}
+			leinster_area = {
+				add_permanent_claim = ROOT
+				add_province_modifier = {
+					name = scales_of_justice
+					duration = 7300
+				}
+			}
+	}
+}#March of the Eagles
+country_event = {  
+	id = snekreligion.20
+	title = "snekreligion.20_name"
+	desc = "snekreligion.20_desc"
+	picture = MILITARY_CAMP_eventPicture
+	fire_only_once = yes
+	trigger = {
+		religion = snek
+		is_subject = no	
+		is_at_war = yes
+		ai = no
+	}
+	mean_time_to_happen = {
+		months = 7300
+	}
+	
+	option = {  
+		name = "snekreligion.20_1"
+		add_manpower = 1
+	}
+}
+
+#Heretics lurk among us
+country_event = {  
+	id = snekreligion.21
+	title = "snekreligion.21_name"
+	desc = "snekreligion.21_desc"
+	picture = RELIGIOUS_TURMOIL_eventPicture
+
+	trigger = {
+		religion = snek
+		ai = no		
+		is_religion_enabled = protestant		
+	}
+	mean_time_to_happen = {
+		months = 96
+	}
+
+	option = {  
+		name = "snekreligion.21_1"
+		add_manpower = 1
+		add_prestige = 10		 	
+	}
+	option = {  
+		name = "snekreligion.21_2"
+		add_country_modifier = {
+			name = pro_heretics
+			duration = 1080
+		}
+	}
+}
+
+
+#Credits Event
+country_event = {
+	id = snekreligion_credits
+	title = "snekreligion_credits_name"
+	desc = "snekreligion_credits_desc"
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	trigger = {
+		has_country_flag = snekreligion_credits_flag
+	}
+	option = {
+		name = snekreligion_credits.1
+		hidden_effect = {
+			clr_country_flag = snekreligion_credits_flag
+		}
+	}
+}

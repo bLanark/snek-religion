@@ -1,5 +1,62 @@
-#Dual Monarchy
+#Dual Monarchy, To be legislated
+
+DMA_ideas = {
+	start = {
+		cavalry_power = 0.2
+		diplomatic_upkeep = 1
+	}
+
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		OR = {
+			tag = DMA
+		}
+	}
+	free = yes	
+	
+}
 
 #East Mercia
 
-#West Mercia
+EMR_ideas = {
+	start = {
+		cavalry_power = 0.2
+		diplomatic_upkeep = 1
+	}
+
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		OR = {
+			tag = EMR
+		}
+	}
+	free = yes	
+	
+}
+
+#West Mercia WEM
+
+WEM_ideas = {
+	start = {
+		cavalry_power = 0.2
+		diplomatic_upkeep = 1
+	}
+
+	bonus = {
+		discipline = 0.05
+	}
+	
+	trigger = {
+		OR = {
+			tag = WEM
+		}
+	}
+	free = yes	
+	
+}

@@ -6,7 +6,7 @@ color = { 255 69 0 }
 
 revolutionary_colors = { 2  0  10 }
 
-preferred_religion = protestant #ill change is later when we have the church of Victoria
+preferred_religion = snek
 historical_idea_groups = {
 	administrative_ideas
 	exploration_ideas

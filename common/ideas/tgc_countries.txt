@@ -19,7 +19,7 @@ DMA_ideas = {
 	
 }
 
-#East Mercia
+#East Mercia EMR
 
 EMR_ideas = {
 	start = {

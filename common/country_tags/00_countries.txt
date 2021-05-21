@@ -72,6 +72,7 @@ LOI = "countries/TheIsles.txt"
 DMA = "countries/DualMonarchy.txt"
 WEM = "countries/WestMercia.txt"
 EMR = "countries/EastMercia.txt"
+WSX = "countries/Wessex.txt"
 
 #Colonies
 BRZ	= "countries/Brazil.txt"

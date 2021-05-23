@@ -74,6 +74,7 @@ WEM = "countries/WestMercia.txt"
 EMR = "countries/EastMercia.txt"
 WSX = "countries/Wessex.txt"
 ESX = "countries/Essex.txt"
+EAN = "countries/EastAnglia.txt"
 
 #Colonies
 BRZ	= "countries/Brazil.txt"

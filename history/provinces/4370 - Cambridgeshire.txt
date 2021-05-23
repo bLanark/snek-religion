@@ -3,7 +3,7 @@
 
 owner = DMA
 controller = DMA
-culture = english
+culture = anglosaxon
 religion = snek
 hre = no
 base_tax = 3

@@ -23,4 +23,18 @@ vassal = {
 	start_date = 1444.1.1
 	end_date = 1449.1.1
 }
+vassal = {
+	first = WSX
+	second = ESX
+	start_date = 1444.1.1
+	end_date = 1449.1.1
+}
+vassal = {
+	first = WSX
+	second = EAN
+	start_date = 1444.1.1
+	end_date = 1449.1.1
+}
+
+
 

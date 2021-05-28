@@ -1,8 +1,8 @@
 #236 - London
 #Middlesex+Hertfordshire+Surrey+parts of Kent and Essex
 
-owner = ESX
-controller = ESX
+owner = WSX
+controller = WSX
 culture = anglosaxon
 religion = catholic
 hre = no

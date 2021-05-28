@@ -1,8 +1,8 @@
 #1860 - Norfolk
 #Includes Suffolk
 
-owner = EAN
-controller = EAN
+owner = WSX
+controller = WSX
 culture = anglosaxon
 religion = catholic
 hre = no

@@ -1,7 +1,7 @@
 #233 - Cornwall
 
-owner = CRN
-controller = CRN
+owner = WSX
+controller = WSX
 culture = cornish
 religion = catholic
 hre = no

@@ -1,0 +1,36 @@
+DMA_mission_1 = {
+	slot = 2 #Second column left to right
+	generic = no
+	ai = yes
+	potential = {
+		tag = DMA
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	#Missions
+	DMA_rally_troops = {
+		icon = mission_assemble_an_army
+		required_missions = { }
+		position = 1
+
+		trigger = {
+			army_size_percentage = 1 #Be at forcelimit and have at least 80% manpower
+			manpower_percentage = 0.8
+		}
+
+		effect = {
+			add_mil_power = 50
+			add_country_modifier = {
+				name = "thriving_arms_industry" #increases morale by 5% and reduces maintaince by 5%
+				duration = 9125 #25 years
+			}
+			scottish_marches_area = {
+				limit = {
+					NOT = { is_core = ROOT }
+					NOT = { is_permanent_claim = ROOT }
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+}

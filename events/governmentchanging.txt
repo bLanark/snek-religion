@@ -44,7 +44,7 @@ country_event = {
 	option = {
 		ai_chance = {factor = 90}
 		name = "piratical_victory"
-		DMA = {    #The events tool tip says that we declare war on scotland but it doesnt actually work 
+		DMA = {     
 			change_government = republic 
 			add_government_reform = pirate_republic_reform
 			add_republican_tradition = 50
@@ -54,7 +54,7 @@ country_event = {
 					cavalry = 0.2
 				}
 			}
-			hidden_effect = {
+			hidden_effect = { #This event doesnt fire despite being identical to the one under the merchant republic one, which works perfectly
 				country_event = {
 					id = 700
 				}
@@ -64,7 +64,7 @@ country_event = {
 	option = {
 		ai_chance = {factor = 10}
 		name = "merchant_victory"
-		DMA = {    #The events tool tip says that we declare war on scotland but it doesnt actually work 
+		DMA = {     
 			change_government = republic  
 			add_government_reform = merchants_reform
 			add_republican_tradition = 50

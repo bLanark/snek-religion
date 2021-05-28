@@ -1,0 +1,62 @@
+country_decisions = {
+	forming_mercia = {
+		major = yes
+		potential = {
+			was_never_end_game_tag_trigger = yes
+			NOT = { has_country_flag = formed_mercia_flag }
+			NOT = { exists = MRC }
+			NOT = { tag = PAP }
+			NOT = { tag = HLR }
+			OR = {
+				tag = WEM
+				tag = EMR
+			}
+			provinces_to_highlight = {
+				OR = {
+					owns_core_province = 4376
+					owns_core_province = 4372
+					owns_core_province = 4375
+					owns_core_province = 239
+					owns_core_province = 237
+					owns_core_province = 4370		
+				}
+				OR = {
+					NOT = { owned_by = ROOT }
+					NOT = { is_core = ROOT }
+				}
+			}
+			allow = {
+				is_free_or_tributary_trigger = yes
+				is_nomad = no
+				is_at_war = no
+				owns_core_province = 4376
+				owns_core_province = 4372
+				owns_core_province = 4375
+				owns_core_province = 239
+				owns_core_province = 237
+				owns_core_province = 4370
+			}	
+			effect = {
+				change_tag = MRC
+				swap_non_generic_missions = yes
+				remove_non_electors_emperors_from_empire_effect = yes
+				if = {
+					limit = {
+						NOT = { government_rank = 2 }
+					}
+					set_government_rank = 2
+				}
+				add_prestige = 25
+				add_country_modifier = {
+					name = "centralization_modifier"
+					duration = 7300
+				}
+				set_country_flag = formed_mercia_flag
+			}
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		ai_importance = 400
+	}
+}

@@ -1,8 +1,8 @@
 #237 - Oxfordshire
 #Oxfordshire+Bukinghamshire+Berkshire
 
-owner = ESX
-controller = ESX
+owner = WSX
+controller = WSX
 culture = anglosaxon
 religion = catholic
 hre = no

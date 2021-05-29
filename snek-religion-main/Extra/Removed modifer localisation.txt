@@ -1,2 +1,0 @@
-  ulster_burnt:0 "The Burning of Ulster"
-  calculating_captain:0 "Calculating Captain"

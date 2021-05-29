@@ -45,7 +45,7 @@ DMA_mission_2 = {
 	has_country_shield = yes
 	#Missions
 	DMA_end_regency = {
-		icon = monarch_in_throne_room
+		icon = mission_monarch_in_throne_room
 		required_missions = { }
 		position = 1
 

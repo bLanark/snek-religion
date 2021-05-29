@@ -11,8 +11,8 @@ trade_goods = fish
 base_manpower = 3
 capital = "Salisbury"
 is_city = yes
+fort_15th = yes
 add_core = WSX
-add_core = ENG
 #Salisbury and Winchester Cathedrals
 discovered_by = western
 discovered_by = muslim

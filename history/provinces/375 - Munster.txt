@@ -11,6 +11,7 @@ trade_goods = fish
 base_manpower = 2
 capital = "Limerick"
 is_city = yes
+fort_15th = yes
 add_core = IRE
 add_core = MNS
 discovered_by = western

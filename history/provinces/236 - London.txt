@@ -13,7 +13,6 @@ base_manpower = 6
 capital = "London"
 is_city = yes
 add_core = ESX
-add_core = ENG
 add_core = WSX
 seat_in_parliament = yes
 fort_15th = yes

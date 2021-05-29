@@ -16,7 +16,6 @@ base_manpower = 1
 capital = "Chester"
 is_city = yes
 add_core = SCO
-add_core = ENG
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman

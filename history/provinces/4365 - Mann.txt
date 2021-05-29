@@ -11,7 +11,6 @@ trade_goods = fish
 base_manpower = 1
 capital = "Castletown"
 is_city = yes
-add_core = ENG
 add_core = KOI
 add_core = SCO
 discovered_by = western

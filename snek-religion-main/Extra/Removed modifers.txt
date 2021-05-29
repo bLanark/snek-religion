@@ -1,6 +1,0 @@
-ulster_burnt = {
-	tolerance_own = 1
-}
-calculating_captain = {
-	diplomatic_reputation = 2
-}

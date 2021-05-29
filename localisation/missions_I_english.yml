@@ -1,7 +1,0 @@
-l_english:
- DMA_rally_troops_title:0 "Rally the troops"
- DMA_rally_troops_desc:0 "We must rally together all the levees and professional troops to assemble an army large enough to free ourselves from the Scottish yoke"
- DMA_end_regency_title:0 "End the Regency"
- DMA_end_regency_desc:0 "In order to attain independence from the Scots, we must find a suitable ruler to lead us"
- restore_government:0 "Order in the government"
- desc_restore_government:0 "We have restored order and legitmacy of the government"

@@ -57,4 +57,7 @@ great_success = {
 pro_heretics = { 
 	tolerance_heretic = 1  
 }
+restore_government = {
+	republican_tradition = 0.25
+}
 

@@ -2,7 +2,7 @@ country_decisions = {
 	snk_credits = {
 		potential = {
 			religion = snek
-			NOT = { has_country_modifier = snekreligion_credits_flag }
+			NOT = { has_country_flag = snekreligion_credits_flag }
 		}
 		effect = {	
 			set_country_flag = snekreligion_credits_flag

@@ -60,4 +60,8 @@ pro_heretics = {
 restore_government = {
 	republican_tradition = 0.25
 }
+trent_estuary_modifier = {
+	province_trade_power_value = 10
+	picture = "estuary_icon"
+}
 

@@ -56,8 +56,30 @@ DMA_mission_2 = {
 		effect = {
 			add_adm_power = 50
 			add_country_modifier = {
-				name = restore_government
+				name = restore_government #+0.20 republican tradition per year
 				duration = 9125 #25 years
+			}
+		}
+	}
+	DMA_independance = {
+		icon = mission_cannons_firing
+		required_missions = {
+			DMA_end_regency
+			DMA_rally_troops
+			DMA_renovate_fleet
+		}
+		position = 2
+
+		trigger = {
+			is_subject = no
+			is_at_war = no
+		}
+
+		effect = {
+			add_prestige = 50
+			add_country_modifier = {
+				name = won_independance #Morale of armies and navy +5%
+				duration = 7300 #20 years
 			}
 		}
 	}
@@ -78,15 +100,15 @@ DMA_mission_3 = {
 		position = 1
 
 		trigger = {
-			num_of_heavy_ship = 2
+			num_of_heavy_ship = SCO #have the same number of heavies as Alba
 			navy_size_percentage = 1
 		}
 
 		effect = {
 			add_dip_power = 50
 			add_country_modifier = {
-				name = fleet_improvements
-				duration = 1825 #5 years
+				name = fleet_improvements #+10% heavy, light, and transport combat ability
+				duration = 3650 #10 years
 			}
 		}
 	}	

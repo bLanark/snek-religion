@@ -62,3 +62,33 @@ DMA_mission_2 = {
 		}
 	}
 }
+DMA_mission_3 = {
+	slot = 4 #4th column from the left
+	generic = no
+	ai = yes
+	potential = {
+		tag = DMA
+		NOT = { map_setup = map_setup_random }
+	}
+	has_country_shield = yes
+	#Missions
+	DMA_renovate_fleet = {
+		icon = mission_launch_a_flagship
+		required_missions = { }
+		position = 1
+
+		trigger = {
+			num_of_heavy_ship = 2
+			navy_size_percentage = 1
+		}
+
+		effect = {
+			add_dip_power = 50
+			add_country_modifier = {
+				name = fleet_improvements
+				duration = 1825 #5 years
+			}
+		}
+	}	
+
+}

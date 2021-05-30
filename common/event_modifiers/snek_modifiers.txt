@@ -64,4 +64,9 @@ trent_estuary_modifier = {
 	province_trade_power_value = 10
 	picture = "estuary_icon"
 }
+fleet_improvements = {
+	heavy_ship_power = 0.1
+	light_ship_power = 0.1
+	transport_power = 0.1
+}
 
